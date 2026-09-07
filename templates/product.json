@@ -20,8 +20,9 @@
             "grid_layout": "grid-with-thumbnail",
             "grid_gap": 10,
             "carousel_thumbnail": "inside",
-            "media_aspect_ratio": "auto",
             "thumbnail_media_aspect_ratio": "auto",
+            "thumbnail_media_aspect_ratio_mobile": "inherit",
+            "media_aspect_ratio": "auto",
             "media_radius": 20,
             "video_autoplay": false,
             "enable_zoom": true,
@@ -145,9 +146,28 @@
                 },
                 "product_description_DwV47J": {
                   "type": "_product-description",
-                  "name": "t:names.description",
+                  "name": "Short Selling Line",
                   "settings": {
-                    "text": "<p>{{ closest.product.description }}</p>",
+                    "text": "<p>{{ closest.product.metafields.custom.short_selling_line.value }}</p>",
+                    "type_preset": "h4",
+                    "font": "var(--font-body--family)",
+                    "font_weight": "",
+                    "font_size": 15,
+                    "font_size_mobile": 15,
+                    "line_height": "normal",
+                    "text_color": "text",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "product_description_tTdRgP": {
+                  "type": "_product-description",
+                  "name": "Main Product Description ",
+                  "settings": {
+                    "text": "<p>{{ closest.product.metafields.custom.main_product_description | metafield_tag }}</p>",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_weight": "",
@@ -165,7 +185,8 @@
               },
               "block_order": [
                 "product_information_group_VXMCmd",
-                "product_description_DwV47J"
+                "product_description_DwV47J",
+                "product_description_tTdRgP"
               ]
             },
             "variant_picker_NYNfW9": {
@@ -616,7 +637,7 @@
                     "text_NhECK8": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Crafted from eco-friendly fabric, this shirt boasts a rustic texture that feels as unique as your child.</p><ul><li>Unbuttoned Polo-style collar.</li><li>Dropped shoulders and short sleeves.</li><li>Contrasting fabric at the neck, cuffs, and hem.</li><li>Ambroidered at the chest.</li><li>All-over woven stripes. </li></ul>",
+                        "text": "<p>{{ closest.product.metafields.custom.product_details_text | metafield_tag }}</p>",
                         "highlight_style": "none",
                         "highlight_font_style": "italic",
                         "highlight_shape_color": "",
@@ -649,6 +670,147 @@
                     "text_NhECK8"
                   ]
                 },
+                "accordion_row_WCFHdg": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "text": "What’s Included",
+                    "open_row_by_default": true,
+                    "icon": "none",
+                    "icon_size": "extra-large",
+                    "width": 24,
+                    "width_mobile": 24
+                  },
+                  "blocks": {
+                    "text_gGVMLz": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>{{ closest.product.metafields.custom.whats_included_text2 | metafield_tag }}</p>",
+                        "highlight_style": "none",
+                        "highlight_font_style": "italic",
+                        "highlight_shape_color": "",
+                        "highlight_text_color": "",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_weight": "",
+                        "font_size": 15,
+                        "font_size_mobile": 15,
+                        "line_height": "normal",
+                        "text_color": "subtext",
+                        "text_color_gradient": "",
+                        "disable_line_break_mobile": false,
+                        "width": "fit-content",
+                        "text_alignment": "left",
+                        "width_mobile": "fit-content",
+                        "text_alignment_mobile": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0,
+                        "mobile-padding-scale": 80,
+                        "animation_type": "none",
+                        "animation_delay": 250
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_gGVMLz"
+                  ]
+                },
+                "accordion_row_NJ8mBD": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "text": "Key Benefits",
+                    "open_row_by_default": true,
+                    "icon": "none",
+                    "icon_size": "extra-large",
+                    "width": 24,
+                    "width_mobile": 24
+                  },
+                  "blocks": {
+                    "text_RfrygM": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>{{ closest.product.metafields.custom.key_benefits_text2 | metafield_tag }}</p>",
+                        "highlight_style": "none",
+                        "highlight_font_style": "italic",
+                        "highlight_shape_color": "",
+                        "highlight_text_color": "",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_weight": "",
+                        "font_size": 15,
+                        "font_size_mobile": 15,
+                        "line_height": "normal",
+                        "text_color": "subtext",
+                        "text_color_gradient": "",
+                        "disable_line_break_mobile": false,
+                        "width": "fit-content",
+                        "text_alignment": "left",
+                        "width_mobile": "fit-content",
+                        "text_alignment_mobile": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0,
+                        "mobile-padding-scale": 80,
+                        "animation_type": "none",
+                        "animation_delay": 250
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_RfrygM"
+                  ]
+                },
+                "accordion_row_9B3Xa3": {
+                  "type": "_accordion-row",
+                  "settings": {
+                    "text": "Best for and Gifting",
+                    "open_row_by_default": true,
+                    "icon": "none",
+                    "icon_size": "extra-large",
+                    "width": 24,
+                    "width_mobile": 24
+                  },
+                  "blocks": {
+                    "text_KbrgDh": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>{{ closest.product.metafields.custom.best_for | metafield_tag }}</p>",
+                        "highlight_style": "none",
+                        "highlight_font_style": "italic",
+                        "highlight_shape_color": "",
+                        "highlight_text_color": "",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_weight": "",
+                        "font_size": 15,
+                        "font_size_mobile": 15,
+                        "line_height": "normal",
+                        "text_color": "subtext",
+                        "text_color_gradient": "",
+                        "disable_line_break_mobile": false,
+                        "width": "fit-content",
+                        "text_alignment": "left",
+                        "width_mobile": "fit-content",
+                        "text_alignment_mobile": "left",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0,
+                        "mobile-padding-scale": 80,
+                        "animation_type": "none",
+                        "animation_delay": 250
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "text_KbrgDh"
+                  ]
+                },
                 "accordion_row_eMehRb": {
                   "type": "_accordion-row",
                   "settings": {
@@ -663,7 +825,7 @@
                     "text_JNT7ew": {
                       "type": "text",
                       "settings": {
-                        "text": "<ul><li>100% breathable muslin cotton exterior</li><li>Smooth, natural beechwood teething ring</li><li>Soft polyester filling</li><li>Non-toxic, baby-safe dyes</li><li>BPA-free and phthalate-free components</li></ul>",
+                        "text": "<p>{{ closest.product.metafields.custom.materials | metafield_tag }}</p>",
                         "highlight_style": "none",
                         "highlight_font_style": "italic",
                         "highlight_shape_color": "",
@@ -746,6 +908,9 @@
               },
               "block_order": [
                 "accordion_row_XENRWn",
+                "accordion_row_WCFHdg",
+                "accordion_row_NJ8mBD",
+                "accordion_row_9B3Xa3",
                 "accordion_row_eMehRb",
                 "accordion_row_iXty6f"
               ]
@@ -757,6 +922,7 @@
                 "text": "Share:",
                 "show_help_desk": true,
                 "help_desk_label": "Need help ?",
+                "help_desk_link": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -840,6 +1006,7 @@
                   "static": true,
                   "settings": {
                     "label": "Show now",
+                    "link": "",
                     "style": "white",
                     "size": "extra-small",
                     "icon": "caret-right",
@@ -856,6 +1023,7 @@
               "type": "_product-frequently-bought-together",
               "name": "t:names.frequently_bought_together",
               "settings": {
+                "product_list": [],
                 "pcard_image_ratio": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
@@ -1259,6 +1427,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Shop",
+                "link": "",
                 "style": "primary",
                 "size": "medium",
                 "icon": "none",
@@ -1306,6 +1475,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Shop",
+                "link": "",
                 "style": "primary",
                 "size": "medium",
                 "icon": "none",
@@ -1371,6 +1541,7 @@
             "image_away_from_edge": false,
             "enable_image_stretch": true,
             "image_border_radius": 0,
+            "product": "",
             "inherit_color_scheme": false,
             "color_scheme": "",
             "border_radius": 20
@@ -1430,6 +1601,7 @@
             "image_away_from_edge": false,
             "enable_image_stretch": true,
             "image_border_radius": 0,
+            "product": "",
             "inherit_color_scheme": false,
             "color_scheme": "",
             "border_radius": 20
@@ -1489,6 +1661,7 @@
             "image_away_from_edge": false,
             "enable_image_stretch": true,
             "image_border_radius": 0,
+            "product": "",
             "inherit_color_scheme": false,
             "color_scheme": "",
             "border_radius": 20
@@ -1548,6 +1721,7 @@
             "image_away_from_edge": false,
             "enable_image_stretch": true,
             "image_border_radius": 0,
+            "product": "",
             "inherit_color_scheme": false,
             "color_scheme": "",
             "border_radius": 20
@@ -1809,6 +1983,7 @@
                 "width": 408,
                 "width_mobile": 256,
                 "image_ratio": "adapt",
+                "product_list": [],
                 "heading": "Shop The Look",
                 "heading_preset": "h3",
                 "color_scheme": "scheme-2",
@@ -1823,6 +1998,7 @@
                 "width": 288,
                 "width_mobile": 256,
                 "image_ratio": "adapt",
+                "product_list": [],
                 "heading": "Shop The Look",
                 "heading_preset": "h3",
                 "color_scheme": "scheme-2",
@@ -1837,6 +2013,7 @@
                 "width": 408,
                 "width_mobile": 256,
                 "image_ratio": "adapt",
+                "product_list": [],
                 "heading": "Shop The Look",
                 "heading_preset": "h3",
                 "color_scheme": "scheme-2",
@@ -1851,6 +2028,7 @@
                 "width": 288,
                 "width_mobile": 256,
                 "image_ratio": "adapt",
+                "product_list": [],
                 "heading": "Shop The Look",
                 "heading_preset": "h3",
                 "color_scheme": "scheme-2",
@@ -1865,6 +2043,7 @@
                 "width": 408,
                 "width_mobile": 256,
                 "image_ratio": "adapt",
+                "product_list": [],
                 "heading": "Shop The Look",
                 "heading_preset": "h3",
                 "color_scheme": "scheme-2",
@@ -1879,6 +2058,7 @@
                 "width": 288,
                 "width_mobile": 256,
                 "image_ratio": "adapt",
+                "product_list": [],
                 "heading": "Shop The Look",
                 "heading_preset": "h3",
                 "color_scheme": "scheme-2",
@@ -1937,6 +2117,7 @@
           "type": "_lookbook-banner-product",
           "name": "t:names.product",
           "settings": {
+            "product": "",
             "offset_top": 36,
             "offset_left": 28,
             "offset_top_mobile": 30,
@@ -1949,6 +2130,7 @@
           "type": "_lookbook-banner-product",
           "name": "t:names.product",
           "settings": {
+            "product": "",
             "offset_top": 70,
             "offset_left": 56,
             "offset_top_mobile": 74,
@@ -1961,6 +2143,7 @@
           "type": "_lookbook-banner-product",
           "name": "t:names.product",
           "settings": {
+            "product": "",
             "offset_top": 38,
             "offset_left": 64,
             "offset_top_mobile": 34,
@@ -2253,6 +2436,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Learn more",
+                "link": "",
                 "style": "primary",
                 "size": "large",
                 "icon": "caret-right",
@@ -3173,6 +3357,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "@littlepebble.co",
+                    "link": "",
                     "style": "outline",
                     "size": "small",
                     "icon": "none",
