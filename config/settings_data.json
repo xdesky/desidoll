@@ -152,7 +152,7 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#ebebeb",
+          "background": "#f8f8f8",
           "background_secondary": "#ffffff",
           "foreground": "#2e2e2e",
           "foreground_secondary": "#2e2e2ecc",

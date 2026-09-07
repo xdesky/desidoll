@@ -2,6 +2,13 @@
    Custom Styles
    Bunie Theme
 ================================ */
+
+.testimonial--image-stretch {
+    padding: 12px;
+    border: 1px solid #F681C4;
+    background: linear-gradient(90deg, #FFF5FB 0%, #FFFFFF 100%);
+}
+
 @media (min-width: 1024px) {
     .collage-product-card-overlay__grid {
         max-width: 100% !important;
@@ -36,5 +43,9 @@
 
     .collage-product-card-overlay__cols-last {
         padding-top: 0;
+    }
+
+    .testimonial--inline .testimonial__media {
+        flex: 0 0 35%;
     }
 }

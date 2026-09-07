@@ -627,14 +627,14 @@
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
                     "highlight_text_color": "",
-                    "type_preset": "text-subheading",
+                    "type_preset": "rte",
                     "font": "var(--font-body--family)",
                     "font_weight": "",
                     "font_size": 15,
                     "font_size_mobile": 15,
                     "line_height": "normal",
-                    "text_color": "text",
-                    "text_color_gradient": "",
+                    "text_color": "gradient",
+                    "text_color_gradient": "linear-gradient(127deg, rgba(236, 11, 140, 1) 11%, rgba(236, 11, 140, 1) 81%)",
                     "disable_line_break_mobile": false,
                     "width": "fit-content",
                     "text_alignment": "left",
@@ -686,7 +686,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Perfect for letting toddlers move their bodies and exercise their imaginations on a rainy day, this sturdy gym climber from Gathre delivers all the fun of an outdoor playground in a beautiful,</p>",
+                    "text": "<p>Help your child learn duas, Arabic, Islamic stories and good values <br/>through toys they will love playing with.</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -718,8 +718,8 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "label": "Explore Now",
-                    "link": "",
+                    "label": "Explore Islamic Learning",
+                    "link": "shopify://collections/islamic-learning",
                     "style": "primary",
                     "size": "large",
                     "icon": "caret-right",
@@ -920,7 +920,7 @@
                 "font_size_mobile": 15,
                 "line_height": "normal",
                 "text_color": "#ffffff",
-                "background_color": "#b85828",
+                "background_color": "#EC0B8C",
                 "round_shape": false,
                 "border_radius": 0,
                 "rotate": -20,
@@ -956,7 +956,7 @@
                 "font_size_mobile": 15,
                 "line_height": "normal",
                 "text_color": "#ffffff",
-                "background_color": "#cb9647",
+                "background_color": "#B9E4F1",
                 "round_shape": false,
                 "border_radius": 0,
                 "rotate": -24,
@@ -992,7 +992,7 @@
                 "font_size_mobile": 15,
                 "line_height": "normal",
                 "text_color": "#ffffff",
-                "background_color": "#9dbeb0",
+                "background_color": "#F59FC4",
                 "round_shape": false,
                 "border_radius": 32,
                 "rotate": 24,
@@ -1055,7 +1055,7 @@
           "type": "product-overlay-card",
           "name": "t:names.product_overlay_card",
           "settings": {
-            "product": "",
+            "product": "my-quran-moon-pillow-light-sound",
             "product_image_ratio": "1/1",
             "image": "shopify://shop_images/collection1.webp",
             "image_ratio": "adapt",
@@ -1070,7 +1070,7 @@
           "type": "product-overlay-card",
           "name": "t:names.product_overlay_card",
           "settings": {
-            "product": "",
+            "product": "aamina-english-arabic-talking-muslim-doll",
             "product_image_ratio": "1/1",
             "image": "shopify://shop_images/collection3.webp",
             "image_ratio": "adapt",
@@ -1085,7 +1085,7 @@
           "type": "product-overlay-card",
           "name": "t:names.product_overlay_card",
           "settings": {
-            "product": "",
+            "product": "99-names-of-allah-interactive-sound-book",
             "product_image_ratio": "1/1",
             "image": "shopify://shop_images/collection2.webp",
             "image_ratio": "adapt",
@@ -1157,7 +1157,7 @@
       "name": "t:names.product_tab_carousel",
       "settings": {
         "container": "fixed",
-        "heading": "<p>We love these for you</p>",
+        "heading": "<p>Loved by children. Trusted by parents.</p>",
         "highlight_style": "none",
         "highlight_font_style": "italic",
         "highlight_shape_color": "",
@@ -2973,14 +2973,14 @@
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
                 "highlight_text_color": "",
-                "type_preset": "text-subheading",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_weight": "",
                 "font_size": 15,
                 "font_size_mobile": 15,
                 "line_height": "normal",
-                "text_color": "text",
-                "text_color_gradient": "",
+                "text_color": "gradient",
+                "text_color_gradient": "linear-gradient(46deg, rgba(236, 11, 140, 1) 13%, rgba(236, 11, 140, 1) 86%)",
                 "disable_line_break_mobile": false,
                 "width": "fit-content",
                 "text_alignment": "center",
@@ -3043,7 +3043,7 @@
                 "font_size": 15,
                 "font_size_mobile": 15,
                 "line_height": "normal",
-                "text_color": "text",
+                "text_color": "subtext",
                 "text_color_gradient": "",
                 "disable_line_break_mobile": false,
                 "width": "fit-content",
@@ -3086,7 +3086,7 @@
         "swipe_column_width": 74,
         "columns_mobile": "1",
         "column_gap_mobile": 8,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -3146,19 +3146,19 @@
               "type": "text",
               "name": "t:names.subheading",
               "settings": {
-                "text": "<p>Hand-Picked Products</p>",
+                "text": "<p>CHOSEN FOR YOUR LITTLE ONE</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
                 "highlight_text_color": "",
-                "type_preset": "text-subheading",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_weight": "",
                 "font_size": 15,
                 "font_size_mobile": 15,
                 "line_height": "normal",
-                "text_color": "text",
-                "text_color_gradient": "",
+                "text_color": "gradient",
+                "text_color_gradient": "linear-gradient(270deg, rgba(236, 11, 140, 1), rgba(236, 11, 140, 1) 100%)",
                 "disable_line_break_mobile": false,
                 "width": "100%",
                 "text_alignment": "center",
@@ -3178,7 +3178,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Best products of the month</p>",
+                "text": "<p>Gifts they will love and remember</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -3205,11 +3205,44 @@
                 "animation_delay": 250
               },
               "blocks": {}
+            },
+            "text_xRFRke": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Find something special for Eid, birthdays or simply to make them smile.</p>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "subtext",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 20,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "none",
+                "animation_delay": 250
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_CHX8aX",
-            "text_RthdjU"
+            "text_RthdjU",
+            "text_xRFRke"
           ]
         },
         "grid_aRCak8": {
@@ -3330,13 +3363,14 @@
                       "type": "image-with-badges",
                       "name": "t:names.image_with_badges_circle",
                       "settings": {
+                        "image": "shopify://shop_images/best.webp",
                         "image_ratio": "1/1",
                         "image_ratio_mobile": "1/1",
                         "rounded_image": true,
                         "border": "none",
                         "border_width": 1,
                         "border_opacity": 100,
-                        "border_radius": 0
+                        "border_radius": 4
                       },
                       "blocks": {
                         "badge_97mLC3": {
@@ -3361,7 +3395,7 @@
                             "font_size_mobile": 15,
                             "line_height": "normal",
                             "text_color": "#ffffff",
-                            "background_color": "#b85828",
+                            "background_color": "#ec0b8c",
                             "round_shape": false,
                             "border_radius": 32,
                             "rotate": -24,
@@ -3556,6 +3590,7 @@
                       "type": "image-with-badges",
                       "name": "t:names.image_with_badges_circle",
                       "settings": {
+                        "image": "shopify://shop_images/best2.webp",
                         "image_ratio": "1/1",
                         "image_ratio_mobile": "1/1",
                         "rounded_image": true,
@@ -3587,7 +3622,7 @@
                             "font_size_mobile": 15,
                             "line_height": "normal",
                             "text_color": "#ffffff",
-                            "background_color": "#cb9647",
+                            "background_color": "#6c67ae",
                             "round_shape": false,
                             "border_radius": 32,
                             "rotate": -24,
@@ -3782,6 +3817,7 @@
                       "type": "image-with-badges",
                       "name": "t:names.image_with_badges_circle",
                       "settings": {
+                        "image": "shopify://shop_images/best3.webp",
                         "image_ratio": "1/1",
                         "image_ratio_mobile": "1/1",
                         "rounded_image": true,
@@ -3813,7 +3849,7 @@
                             "font_size_mobile": 15,
                             "line_height": "normal",
                             "text_color": "#ffffff",
-                            "background_color": "#9dbeb0",
+                            "background_color": "#b9e4f1",
                             "round_shape": false,
                             "border_radius": 32,
                             "rotate": -24,
@@ -3951,7 +3987,7 @@
         "column_gap_mobile": 12,
         "row_gap_mobile": 0,
         "use_color_scheme_in_container": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -3969,27 +4005,6 @@
     },
     "custom_section_C3jWp7": {
       "type": "custom-section",
-      "blocks": {
-        "divider_JekkQg": {
-          "type": "divider",
-          "name": "t:names.divider",
-          "settings": {
-            "thickness": 1,
-            "width_percent": 100,
-            "disable_on_desktop": false,
-            "disable_on_mobile": false,
-            "device": "mobile",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-block-start-mobile": 0,
-            "padding-block-end-mobile": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "divider_JekkQg"
-      ],
       "name": "t:names.custom_section",
       "settings": {
         "container": "page-width",
@@ -4010,7 +4025,7 @@
         "border_radius": 0,
         "device": "desktop",
         "padding-block-start": 100,
-        "padding-block-end": 100,
+        "padding-block-end": 0,
         "padding-inline-start": 15,
         "padding-inline-end": 15,
         "padding-block-start-mobile": 48,
@@ -4284,6 +4299,7 @@
           "settings": {
             "design": "inline",
             "show_image": true,
+            "image": "shopify://shop_images/c-1.webp",
             "image_ratio": "adapt",
             "image_ratio_mobile": "1/1",
             "image_away_from_edge": false,
@@ -4299,7 +4315,7 @@
               "type": "_simple-text",
               "static": true,
               "settings": {
-                "text": "<p>“I bought this for a gift for my friends daughter. It is great quality & she loves it.”</p>",
+                "text": "<p>“Fun, educational products and a lovely, friendly team that really cares about its customers! Highly recommended.”</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -4325,7 +4341,7 @@
               "settings": {
                 "image_width": 80,
                 "image_width_mobile": 60,
-                "name": "Tony S.",
+                "name": "Karin",
                 "name_preset": "h5",
                 "icon": "check-circle",
                 "bio": "",
@@ -4344,6 +4360,7 @@
           "settings": {
             "design": "inline",
             "show_image": true,
+            "image": "shopify://shop_images/c-2.webp",
             "image_ratio": "adapt",
             "image_ratio_mobile": "1/1",
             "image_away_from_edge": false,
@@ -4359,7 +4376,7 @@
               "type": "_simple-text",
               "static": true,
               "settings": {
-                "text": "<p>“I bought this for my daughter and she absolutely loves it. Great quality and so much fun.”</p>",
+                "text": "<p>“My son absolutely loves playing with this puzzle its bright and colourful and a great way to teach them the Arabic alphabet in a fun way!”</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -4385,127 +4402,7 @@
               "settings": {
                 "image_width": 80,
                 "image_width_mobile": 60,
-                "name": "Brian S.",
-                "name_preset": "h5",
-                "icon": "check-circle",
-                "bio": "",
-                "bio_text_color": "subtext",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "mobile-padding-scale": 80
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": []
-        },
-        "testimonial_XqYb3P": {
-          "type": "testimonial",
-          "settings": {
-            "design": "inline",
-            "show_image": true,
-            "image_ratio": "adapt",
-            "image_ratio_mobile": "1/1",
-            "image_away_from_edge": false,
-            "enable_image_stretch": true,
-            "image_border_radius": 0,
-            "product": "",
-            "inherit_color_scheme": false,
-            "color_scheme": "",
-            "border_radius": 20
-          },
-          "blocks": {
-            "static-testimonial-text": {
-              "type": "_simple-text",
-              "static": true,
-              "settings": {
-                "text": "<p>“Such a thoughtful design. She absolutely loves it and plays with it every day without fail.”</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "text",
-                "padding-block-start": 0,
-                "padding-block-end": 12,
-                "mobile-padding-scale": 100,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "static-testimonial-info": {
-              "type": "_author-info",
-              "static": true,
-              "settings": {
-                "image_width": 80,
-                "image_width_mobile": 60,
-                "name": "Amanda B.",
-                "name_preset": "h5",
-                "icon": "check-circle",
-                "bio": "",
-                "bio_text_color": "subtext",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "mobile-padding-scale": 80
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": []
-        },
-        "testimonial_44C6wk": {
-          "type": "testimonial",
-          "settings": {
-            "design": "inline",
-            "show_image": true,
-            "image_ratio": "adapt",
-            "image_ratio_mobile": "1/1",
-            "image_away_from_edge": false,
-            "enable_image_stretch": true,
-            "image_border_radius": 0,
-            "product": "",
-            "inherit_color_scheme": false,
-            "color_scheme": "",
-            "border_radius": 20
-          },
-          "blocks": {
-            "static-testimonial-text": {
-              "type": "_simple-text",
-              "static": true,
-              "settings": {
-                "text": "<p>“We gifted this to our niece and she loves it. Great quality and looks beautiful in her room.”</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "text",
-                "padding-block-start": 0,
-                "padding-block-end": 12,
-                "mobile-padding-scale": 100,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "static-testimonial-info": {
-              "type": "_author-info",
-              "static": true,
-              "settings": {
-                "image_width": 80,
-                "image_width_mobile": 60,
-                "name": "Chloe M.",
+                "name": "Sara",
                 "name_preset": "h5",
                 "icon": "check-circle",
                 "bio": "",
@@ -4569,9 +4466,7 @@
       },
       "block_order": [
         "testimonial_EyHGYJ",
-        "testimonial_BYKpbk",
-        "testimonial_XqYb3P",
-        "testimonial_44C6wk"
+        "testimonial_BYKpbk"
       ],
       "name": "t:names.testimonials_carousel",
       "settings": {
@@ -4803,9 +4698,9 @@
                     "link": "",
                     "style": "primary",
                     "size": "medium",
-                    "icon": "none",
+                    "icon": "caret-right",
                     "icon_only": false,
-                    "icon_style": "default",
+                    "icon_style": "solid",
                     "mobile_full_width": false,
                     "animation_type": "none",
                     "animation_delay": 250
