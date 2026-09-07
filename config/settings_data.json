@@ -92,13 +92,6 @@
     "show_currency_code": false,
     "cart_item_image_ratio": "3/4",
     "content_for_index": [],
-    "blocks": {
-      "11348531219507317188": {
-        "type": "shopify://apps/eb-easy-bundle-builder/blocks/app-embed/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
-        "disabled": false,
-        "settings": {}
-      }
-    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -492,13 +485,13 @@
       },
       "scheme-d4ebd95c-1cfd-4fdd-a36a-7f613dfba49d": {
         "settings": {
-          "background": "#ec0b8c",
+          "background": "#EC0B8C",
           "background_secondary": "#eeeeee",
-          "foreground": "#ffffff",
+          "foreground": "#FFFFFF",
           "foreground_secondary": "#2e2e2ecc",
           "border": "#0000001a",
-          "sale_price": "#ec0b8c",
-          "primary_button_background": "#ec0b8c",
+          "sale_price": "#EC0B8C",
+          "primary_button_background": "#EC0B8C",
           "primary_button_text": "#ffffff",
           "secondary_button_background": "#ebebeb",
           "secondary_button_text": "#2e2e2e",
@@ -509,7 +502,7 @@
           "input_focus_text": "rgba(0,0,0,0)",
           "swatch_border": "#ebebeb",
           "notification_success": "#0a9b61",
-          "notification_error": "#c24e3c",
+          "notification_error": "#C24E3C",
           "notification_warning": "#ffc107",
           "notification_info": "#007bff",
           "notification_out_of_stock": "#727272",
