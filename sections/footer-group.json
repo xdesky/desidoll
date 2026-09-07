@@ -18,7 +18,7 @@
           "type": "_footer-column",
           "name": "t:names.column",
           "settings": {
-            "width": 46,
+            "width": 44,
             "heading": "",
             "heading_size": "h5",
             "open_default": false,
@@ -47,6 +47,10 @@
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
+                "enable_swipe_on_mobile": false,
+                "swipe_custom_width_column": false,
+                "swipe_column_width": 76,
+                "columns_mobile": 2,
                 "column_gap_mobile": 12,
                 "row_gap_mobile": 24,
                 "device": "desktop",
@@ -64,6 +68,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/dd-branding-logo.png",
                     "link": "",
                     "image_ratio": "adapt",
                     "image_ratio_mobile": "adapt",
@@ -88,12 +93,12 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>We’re obsessed with building the best</p>",
+                    "text": "<p>Award-winning Islamic toys children love <br/>Helping children learn about Islam through dolls, books and play.</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
                     "highlight_text_color": "",
-                    "type_preset": "h1",
+                    "type_preset": "h4",
                     "font": "var(--font-body--family)",
                     "font_weight": "",
                     "font_size": 15,
@@ -141,7 +146,9 @@
             "footer_menu_fLEPht": {
               "type": "_footer-menu",
               "name": "t:names.menu",
-              "settings": {},
+              "settings": {
+                "menu": "footer"
+              },
               "blocks": {}
             }
           },
@@ -163,7 +170,9 @@
             "footer_menu_bNUmwj": {
               "type": "_footer-menu",
               "name": "t:names.menu",
-              "settings": {},
+              "settings": {
+                "menu": "footer"
+              },
               "blocks": {}
             }
           },
@@ -175,7 +184,7 @@
           "type": "_footer-column",
           "name": "t:names.column",
           "settings": {
-            "width": 18,
+            "width": 20,
             "heading": "Get Help",
             "heading_size": "h5",
             "open_default": false,
@@ -186,7 +195,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>3772 Village View Drive, Immokalee, Florida</p>",
+                "text": "<p>customercare@desidollcompany.com</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -214,75 +223,35 @@
               },
               "blocks": {}
             },
-            "text_hth3Gf": {
-              "type": "text",
-              "name": "t:names.text",
+            "image_zatb6n": {
+              "type": "image",
+              "name": "t:names.image",
               "settings": {
-                "text": "<p>littlepebble@gmail.com</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "subtext",
-                "text_color_gradient": "",
-                "disable_line_break_mobile": false,
+                "image": "shopify://shop_images/logo-the-queen.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
                 "width": "fit-content",
-                "text_alignment": "left",
+                "custom_width": 100,
                 "width_mobile": "fit-content",
-                "text_alignment_mobile": "left",
-                "padding-block-start": 12,
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 20,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "text_tzUfwi": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>+1 888-234-1234 (tool-free)</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "subtext",
-                "text_color_gradient": "",
-                "disable_line_break_mobile": false,
-                "width": "fit-content",
-                "text_alignment": "left",
-                "width_mobile": "fit-content",
-                "text_alignment_mobile": "left",
-                "padding-block-start": 12,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
+                "mobile-padding-scale": 80
               },
               "blocks": {}
             }
           },
           "block_order": [
             "text_4Qw6Wx",
-            "text_hth3Gf",
-            "text_tzUfwi"
+            "image_zatb6n"
           ]
         }
       },
@@ -293,6 +262,7 @@
         "footer_column_B4ErBg"
       ],
       "settings": {
+        "menu": "terms-of-use",
         "enable_follow_on_shop": true,
         "enable_social_media_icons": true,
         "enable_language_selector": true,

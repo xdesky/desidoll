@@ -337,7 +337,7 @@
               "type": "collection-card",
               "name": "t:names.collection_card",
               "settings": {
-                "collection": "",
+                "collection": "toddler-1-2-years",
                 "layout": "circle-thumbnail",
                 "text_alignment": "center",
                 "image": "shopify://shop_images/18_months.webp",
@@ -355,7 +355,7 @@
               "type": "collection-card",
               "name": "t:names.collection_card",
               "settings": {
-                "collection": "",
+                "collection": "preschool-3-5-years",
                 "layout": "circle-thumbnail",
                 "text_alignment": "center",
                 "image": "shopify://shop_images/Ages_3.webp",
@@ -373,7 +373,7 @@
               "type": "collection-card",
               "name": "t:names.collection_card",
               "settings": {
-                "collection": "",
+                "collection": "ages-4",
                 "layout": "circle-thumbnail",
                 "text_alignment": "center",
                 "image": "shopify://shop_images/Ages_4.webp",
@@ -391,7 +391,7 @@
               "type": "collection-card",
               "name": "t:names.collection_card",
               "settings": {
-                "collection": "",
+                "collection": "growing-learners-6-8-years",
                 "layout": "circle-thumbnail",
                 "text_alignment": "center",
                 "image": "shopify://shop_images/Ages_6.webp",
@@ -409,7 +409,7 @@
               "type": "collection-card",
               "name": "t:names.collection_card",
               "settings": {
-                "collection": "",
+                "collection": "older-children-9",
                 "layout": "circle-thumbnail",
                 "text_alignment": "center",
                 "image": "shopify://shop_images/Ages_8.webp",
@@ -427,10 +427,10 @@
               "type": "collection-card",
               "name": "t:names.collection_card",
               "settings": {
-                "collection": "",
+                "collection": "all-products",
                 "layout": "circle-thumbnail",
                 "text_alignment": "center",
-                "image": "shopify://shop_images/collection3.webp",
+                "image": "shopify://shop_images/Shop_All_Ages.webp",
                 "image_ratio": "inherit",
                 "title": "Shop All Ages",
                 "title_preset": "h6",
@@ -1032,7 +1032,7 @@
         "column_gap_mobile": 12,
         "row_gap_mobile": 12,
         "use_color_scheme_in_container": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -1057,6 +1057,7 @@
           "settings": {
             "product": "",
             "product_image_ratio": "1/1",
+            "image": "shopify://shop_images/collection1.webp",
             "image_ratio": "adapt",
             "image_ratio_mobile": "adapt",
             "color_scheme": "scheme-inverse",
@@ -1071,6 +1072,7 @@
           "settings": {
             "product": "",
             "product_image_ratio": "1/1",
+            "image": "shopify://shop_images/collection3.webp",
             "image_ratio": "adapt",
             "image_ratio_mobile": "adapt",
             "color_scheme": "scheme-inverse",
@@ -1085,6 +1087,7 @@
           "settings": {
             "product": "",
             "product_image_ratio": "1/1",
+            "image": "shopify://shop_images/collection2.webp",
             "image_ratio": "adapt",
             "image_ratio_mobile": "adapt",
             "color_scheme": "scheme-inverse",
@@ -1099,6 +1102,7 @@
           "settings": {
             "product": "",
             "product_image_ratio": "1/1",
+            "image": "shopify://shop_images/collection4.webp",
             "image_ratio": "adapt",
             "image_ratio_mobile": "adapt",
             "color_scheme": "scheme-inverse",
@@ -1134,14 +1138,14 @@
         "collection_BaN8P9": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "best-sellers",
             "title": "Best Sellers"
           }
         },
         "collection_pkpz4P": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "new-arrivals",
             "title": "New Arrivals"
           }
         }
@@ -1174,7 +1178,7 @@
         "columns_mobile": "1",
         "column_gap_mobile": 8,
         "row_gap_mobile": 8,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -1199,14 +1203,14 @@
           "name": "t:categories.collection",
           "settings": {
             "collection": "",
-            "title": "Playhouse",
+            "title": "Dolls & Friends",
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
-            "title_font_weight": "",
-            "title_font_size": 68,
-            "title_font_size_mobile": 38,
+            "title_font_weight": "500",
+            "title_font_size": 40,
+            "title_font_size_mobile": 28,
             "title_line_height": "loose",
-            "description": "<p>These spaces encourage creative <br/>play and outdoor exploration.</p>"
+            "description": "<p>Find a toy that matches their age, interests and way of learning.</p>"
           },
           "blocks": {
             "collection-highlight-image-card": {
@@ -1214,6 +1218,7 @@
               "name": "t:names.image_card",
               "static": true,
               "settings": {
+                "image": "shopify://shop_images/doll-collection.webp",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "card_link": "",
@@ -1243,7 +1248,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>New Campaign</p>",
+                    "text": "<p>MEET THEIR NEW FRIEND</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1267,7 +1272,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>Tiny Homes,<br/>Big Imagination</p>",
+                    "text": "<p>A doll they can love <br/>& learn with</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1316,8 +1321,8 @@
                   "type": "button",
                   "static": true,
                   "settings": {
-                    "label": "Shop now",
-                    "link": "",
+                    "label": "Shop Talking Dolls",
+                    "link": "shopify://collections/dolls-friends",
                     "style": "primary",
                     "size": "large",
                     "icon": "caret-right",
@@ -1340,12 +1345,12 @@
           "name": "t:categories.collection",
           "settings": {
             "collection": "",
-            "title": "",
+            "title": "Islamic Learning",
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
-            "title_font_weight": "",
-            "title_font_size": 68,
-            "title_font_size_mobile": 38,
+            "title_font_weight": "500",
+            "title_font_size": 40,
+            "title_font_size_mobile": 28,
             "title_line_height": "loose",
             "description": "<p>The feeling of getting home from <br/>work to find the sun still shining.</p>"
           },
@@ -1481,12 +1486,12 @@
           "name": "t:categories.collection",
           "settings": {
             "collection": "",
-            "title": "",
+            "title": "Books & Stories",
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
-            "title_font_weight": "",
-            "title_font_size": 68,
-            "title_font_size_mobile": 38,
+            "title_font_weight": "500",
+            "title_font_size": 40,
+            "title_font_size_mobile": 28,
             "title_line_height": "loose",
             "description": "<p>A cozy little world where big <br/>imaginations feel right at home.</p>"
           },
@@ -1622,12 +1627,294 @@
           "name": "t:categories.collection",
           "settings": {
             "collection": "",
-            "title": "",
+            "title": "Baby & Toddler",
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
-            "title_font_weight": "",
-            "title_font_size": 68,
-            "title_font_size_mobile": 38,
+            "title_font_weight": "500",
+            "title_font_size": 40,
+            "title_font_size_mobile": 28,
+            "title_line_height": "loose",
+            "description": "<p>Each item is carefully selected for its <br/>quality, durability, and timeless appeal.</p>"
+          },
+          "blocks": {
+            "collection-highlight-image-card": {
+              "type": "_collection-highlight-image-card",
+              "name": "t:names.image_card",
+              "static": true,
+              "settings": {
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "card_link": "",
+                "edge_gap": "xl",
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "column_gap": 12,
+                "column_gap_mobile": 12,
+                "row_gap": 32,
+                "row_gap_mobile": 24,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-inverse",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 20,
+                "card_label": "",
+                "card_label_text_color": "#ffffff",
+                "enable_preload_image": false
+              },
+              "blocks": {
+                "subheading": {
+                  "type": "_simple-text",
+                  "static": true,
+                  "settings": {
+                    "text": "<p>New Campaign</p>",
+                    "highlight_style": "none",
+                    "highlight_font_style": "italic",
+                    "highlight_shape_color": "",
+                    "highlight_text_color": "",
+                    "type_preset": "text-subheading",
+                    "font": "var(--font-body--family)",
+                    "font_weight": "",
+                    "font_size": 15,
+                    "font_size_mobile": 15,
+                    "line_height": "normal",
+                    "text_color": "text",
+                    "padding-block-start": 0,
+                    "padding-block-end": 20,
+                    "mobile-padding-scale": 80,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                },
+                "heading": {
+                  "type": "_simple-text",
+                  "static": true,
+                  "settings": {
+                    "text": "<p>Wooden Animals,<br/>Gentle Friends</p>",
+                    "highlight_style": "none",
+                    "highlight_font_style": "italic",
+                    "highlight_shape_color": "",
+                    "highlight_text_color": "",
+                    "type_preset": "custom",
+                    "font": "var(--font-heading--family)",
+                    "font_weight": "",
+                    "font_size": 48,
+                    "font_size_mobile": 34,
+                    "line_height": "tight",
+                    "text_color": "text",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "mobile-padding-scale": 80,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                },
+                "text": {
+                  "type": "_simple-text",
+                  "disabled": true,
+                  "static": true,
+                  "settings": {
+                    "text": "",
+                    "highlight_style": "none",
+                    "highlight_font_style": "italic",
+                    "highlight_shape_color": "",
+                    "highlight_text_color": "",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_weight": "",
+                    "font_size": 15,
+                    "font_size_mobile": 15,
+                    "line_height": "normal",
+                    "text_color": "text",
+                    "padding-block-start": 24,
+                    "padding-block-end": 0,
+                    "mobile-padding-scale": 80,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                },
+                "button": {
+                  "type": "button",
+                  "static": true,
+                  "settings": {
+                    "label": "Shop now",
+                    "link": "",
+                    "style": "primary",
+                    "size": "large",
+                    "icon": "caret-right",
+                    "icon_only": false,
+                    "icon_style": "solid",
+                    "mobile_full_width": false,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": []
+            }
+          },
+          "block_order": []
+        },
+        "collection_highlight_8hC4DH": {
+          "type": "_collection-highlight",
+          "name": "t:categories.collection",
+          "settings": {
+            "collection": "",
+            "title": "Creative Play",
+            "title_preset": "custom",
+            "title_font": "var(--font-heading--family)",
+            "title_font_weight": "500",
+            "title_font_size": 40,
+            "title_font_size_mobile": 28,
+            "title_line_height": "loose",
+            "description": "<p>Each item is carefully selected for its <br/>quality, durability, and timeless appeal.</p>"
+          },
+          "blocks": {
+            "collection-highlight-image-card": {
+              "type": "_collection-highlight-image-card",
+              "name": "t:names.image_card",
+              "static": true,
+              "settings": {
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "card_link": "",
+                "edge_gap": "xl",
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "column_gap": 12,
+                "column_gap_mobile": 12,
+                "row_gap": 32,
+                "row_gap_mobile": 24,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-inverse",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 20,
+                "card_label": "",
+                "card_label_text_color": "#ffffff",
+                "enable_preload_image": false
+              },
+              "blocks": {
+                "subheading": {
+                  "type": "_simple-text",
+                  "static": true,
+                  "settings": {
+                    "text": "<p>New Campaign</p>",
+                    "highlight_style": "none",
+                    "highlight_font_style": "italic",
+                    "highlight_shape_color": "",
+                    "highlight_text_color": "",
+                    "type_preset": "text-subheading",
+                    "font": "var(--font-body--family)",
+                    "font_weight": "",
+                    "font_size": 15,
+                    "font_size_mobile": 15,
+                    "line_height": "normal",
+                    "text_color": "text",
+                    "padding-block-start": 0,
+                    "padding-block-end": 20,
+                    "mobile-padding-scale": 80,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                },
+                "heading": {
+                  "type": "_simple-text",
+                  "static": true,
+                  "settings": {
+                    "text": "<p>Wooden Animals,<br/>Gentle Friends</p>",
+                    "highlight_style": "none",
+                    "highlight_font_style": "italic",
+                    "highlight_shape_color": "",
+                    "highlight_text_color": "",
+                    "type_preset": "custom",
+                    "font": "var(--font-heading--family)",
+                    "font_weight": "",
+                    "font_size": 48,
+                    "font_size_mobile": 34,
+                    "line_height": "tight",
+                    "text_color": "text",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "mobile-padding-scale": 80,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                },
+                "text": {
+                  "type": "_simple-text",
+                  "disabled": true,
+                  "static": true,
+                  "settings": {
+                    "text": "",
+                    "highlight_style": "none",
+                    "highlight_font_style": "italic",
+                    "highlight_shape_color": "",
+                    "highlight_text_color": "",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_weight": "",
+                    "font_size": 15,
+                    "font_size_mobile": 15,
+                    "line_height": "normal",
+                    "text_color": "text",
+                    "padding-block-start": 24,
+                    "padding-block-end": 0,
+                    "mobile-padding-scale": 80,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                },
+                "button": {
+                  "type": "button",
+                  "static": true,
+                  "settings": {
+                    "label": "Shop now",
+                    "link": "",
+                    "style": "primary",
+                    "size": "large",
+                    "icon": "caret-right",
+                    "icon_only": false,
+                    "icon_style": "solid",
+                    "mobile_full_width": false,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": []
+            }
+          },
+          "block_order": []
+        },
+        "collection_highlight_PWfAz9": {
+          "type": "_collection-highlight",
+          "name": "t:categories.collection",
+          "settings": {
+            "collection": "",
+            "title": "Ramadan & Eid",
+            "title_preset": "custom",
+            "title_font": "var(--font-heading--family)",
+            "title_font_weight": "500",
+            "title_font_size": 40,
+            "title_font_size_mobile": 28,
             "title_line_height": "loose",
             "description": "<p>Each item is carefully selected for its <br/>quality, durability, and timeless appeal.</p>"
           },
@@ -1763,16 +2050,18 @@
         "collection_highlight_63xAnF",
         "collection_highlight_9rmhT3",
         "collection_highlight_nG97mD",
-        "collection_highlight_6tmfWR"
+        "collection_highlight_6tmfWR",
+        "collection_highlight_8hC4DH",
+        "collection_highlight_PWfAz9"
       ],
       "name": "t:names.collection_highlight_with_image_card",
       "settings": {
         "desktop_image_position": "right",
         "image_aspect_ratio": "1/1",
         "image_aspect_ratio_mobile": "3/4",
-        "subheading": "Shop by Type",
+        "subheading": "Shop by interest",
         "collection_link_style": "underline",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-f5edb420-fa70-41d7-8c77-7b3105db39e2",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -1795,12 +2084,75 @@
             "enable_parallax": false,
             "column_gap": 40,
             "column_gap_mobile": 24,
-            "color_scheme": "scheme-4",
+            "color_scheme": "scheme-d4ebd95c-1cfd-4fdd-a36a-7f613dfba49d",
             "border_radius": 0,
             "padding-block-start": 16,
             "padding-block-end": 16
           },
           "blocks": {
+            "icon_with_text_MxbmwK": {
+              "type": "_icon-with-text",
+              "name": "t:names.icon_with_text",
+              "settings": {
+                "column_gap": 12,
+                "column_gap_mobile": 12
+              },
+              "blocks": {
+                "static-icon-block": {
+                  "type": "_icon",
+                  "static": true,
+                  "settings": {
+                    "icon": "paper-plane",
+                    "icon_size": "custom-size",
+                    "width": 32,
+                    "width_mobile": 32
+                  },
+                  "blocks": {}
+                },
+                "static-text-block": {
+                  "type": "_simple-text",
+                  "static": true,
+                  "settings": {
+                    "text": "<p>Free UK delivery over £75</p>",
+                    "highlight_style": "none",
+                    "highlight_font_style": "italic",
+                    "highlight_shape_color": "",
+                    "highlight_text_color": "",
+                    "type_preset": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_weight": "",
+                    "font_size": 15,
+                    "font_size_mobile": 15,
+                    "line_height": "normal",
+                    "text_color": "text",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "mobile-padding-scale": 80,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": []
+            },
+            "button_ABFUJC": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "shop",
+                "link": "shopify://collections/all",
+                "style": "primary",
+                "size": "medium",
+                "icon": "none",
+                "icon_only": false,
+                "icon_style": "default",
+                "mobile_full_width": false,
+                "animation_type": "none",
+                "animation_delay": 250
+              },
+              "blocks": {}
+            },
             "icon_with_text_eJW9i3": {
               "type": "_icon-with-text",
               "name": "t:names.icon_with_text",
@@ -1813,7 +2165,7 @@
                   "type": "_icon",
                   "static": true,
                   "settings": {
-                    "icon": "heart",
+                    "icon": "gift",
                     "icon_size": "custom-size",
                     "width": 32,
                     "width_mobile": 32
@@ -1824,7 +2176,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>The love is real</p>",
+                    "text": "<p>Award-winning Islamic toys</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1852,7 +2204,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "shop",
-                "link": "",
+                "link": "shopify://collections/all",
                 "style": "primary",
                 "size": "medium",
                 "icon": "none",
@@ -1876,7 +2228,7 @@
                   "type": "_icon",
                   "static": true,
                   "settings": {
-                    "icon": "globe",
+                    "icon": "heart",
                     "icon_size": "custom-size",
                     "width": 32,
                     "width_mobile": 32
@@ -1887,7 +2239,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>Built for safety</p>",
+                    "text": "<p>Loved by families worldwide</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1915,7 +2267,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "shop",
-                "link": "",
+                "link": "shopify://collections/all",
                 "style": "primary",
                 "size": "medium",
                 "icon": "none",
@@ -1939,7 +2291,7 @@
                   "type": "_icon",
                   "static": true,
                   "settings": {
-                    "icon": "funnel",
+                    "icon": "magic-wand",
                     "icon_size": "custom-size",
                     "width": 32,
                     "width_mobile": 32
@@ -1950,7 +2302,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>Made with the premium</p>",
+                    "text": "<p>Made for learning through play</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1978,7 +2330,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "shop",
-                "link": "",
+                "link": "shopify://collections/all",
                 "style": "primary",
                 "size": "medium",
                 "icon": "none",
@@ -1992,6 +2344,8 @@
             }
           },
           "block_order": [
+            "icon_with_text_MxbmwK",
+            "button_ABFUJC",
             "icon_with_text_eJW9i3",
             "button_d6UMhx",
             "icon_with_text_8Up8Eg",
@@ -2043,6 +2397,7 @@
             "show_content_below": false,
             "gap": 20,
             "gap_mobile": 16,
+            "image": "shopify://shop_images/f-01.webp",
             "toggle_overlay": true,
             "overlay_color": "#00000033",
             "image_ratio": "adapt",
@@ -2084,6 +2439,7 @@
             "subheading": {
               "type": "_simple-text",
               "name": "t:names.subheading",
+              "disabled": true,
               "static": true,
               "settings": {
                 "text": "<p>Kid Toys</p>",
@@ -2111,7 +2467,7 @@
               "name": "t:names.heading",
               "static": true,
               "settings": {
-                "text": "<p>Made from fine, soft waffle</p>",
+                "text": "<p>Islamic Dolls & <br/>Characters</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2133,10 +2489,9 @@
             },
             "text": {
               "type": "_simple-text",
-              "disabled": true,
               "static": true,
               "settings": {
-                "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                "text": "<p>Lovable friends that help children learn about Islam through play.</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2183,6 +2538,7 @@
             "show_content_below": false,
             "gap": 20,
             "gap_mobile": 16,
+            "image": "shopify://shop_images/f-02.webp",
             "toggle_overlay": true,
             "overlay_color": "#00000033",
             "image_ratio": "adapt",
@@ -2224,6 +2580,7 @@
             "subheading": {
               "type": "_simple-text",
               "name": "t:names.subheading",
+              "disabled": true,
               "static": true,
               "settings": {
                 "text": "<p>Wooden Toys</p>",
@@ -2251,7 +2608,7 @@
               "name": "t:names.heading",
               "static": true,
               "settings": {
-                "text": "<p>Cotton canvas cover with pine</p>",
+                "text": "<p>Islamic <br/>Learning Toys</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2273,10 +2630,9 @@
             },
             "text": {
               "type": "_simple-text",
-              "disabled": true,
               "static": true,
               "settings": {
-                "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                "text": "<p>Fun ways to learn Arabic, duas and Islamic values.</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2323,6 +2679,7 @@
             "show_content_below": false,
             "gap": 20,
             "gap_mobile": 16,
+            "image": "shopify://shop_images/f-3.webp",
             "toggle_overlay": true,
             "overlay_color": "#00000033",
             "image_ratio": "adapt",
@@ -2364,6 +2721,7 @@
             "subheading": {
               "type": "_simple-text",
               "name": "t:names.subheading",
+              "disabled": true,
               "static": true,
               "settings": {
                 "text": "<p>Visible Benefits</p>",
@@ -2391,7 +2749,7 @@
               "name": "t:names.heading",
               "static": true,
               "settings": {
-                "text": "<p>7 Essential Health Benefits</p>",
+                "text": "<p>Puzzles & <br/>Creative Play</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2413,10 +2771,9 @@
             },
             "text": {
               "type": "_simple-text",
-              "disabled": true,
               "static": true,
               "settings": {
-                "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                "text": "<p>Build their confidence, imagination and problem-solving skills.</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2463,6 +2820,7 @@
             "show_content_below": false,
             "gap": 20,
             "gap_mobile": 16,
+            "image": "shopify://shop_images/f-04.webp",
             "toggle_overlay": true,
             "overlay_color": "#00000033",
             "image_ratio": "adapt",
@@ -2504,6 +2862,7 @@
             "subheading": {
               "type": "_simple-text",
               "name": "t:names.subheading",
+              "disabled": true,
               "static": true,
               "settings": {
                 "text": "<p>Visible Benefits</p>",
@@ -2531,7 +2890,7 @@
               "name": "t:names.heading",
               "static": true,
               "settings": {
-                "text": "<p>The Raw Advantage</p>",
+                "text": "<p>Gifts for <br/>Little Muslims</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2553,150 +2912,9 @@
             },
             "text": {
               "type": "_simple-text",
-              "disabled": true,
               "static": true,
               "settings": {
-                "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "loose",
-                "text_color": "text",
-                "padding-block-start": 12,
-                "padding-block-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "button": {
-              "type": "button",
-              "static": true,
-              "settings": {
-                "label": "Button label",
-                "link": "",
-                "style": "primary",
-                "size": "medium",
-                "icon": "caret-right",
-                "icon_only": true,
-                "icon_style": "solid",
-                "mobile_full_width": false,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": []
-        },
-        "image_card_UFaecL": {
-          "type": "image-card",
-          "name": "t:names.image_card",
-          "settings": {
-            "show_content_below": false,
-            "gap": 20,
-            "gap_mobile": 16,
-            "toggle_overlay": true,
-            "overlay_color": "#00000033",
-            "image_ratio": "adapt",
-            "image_ratio_mobile": "adapt",
-            "image_border": "none",
-            "image_border_width": 1,
-            "image_border_opacity": 100,
-            "image_border_radius": 20,
-            "card_link": "",
-            "edge_gap": "sm",
-            "content_direction": "row",
-            "vertical_on_mobile": false,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-end",
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "horizontal_alignment_mobile": "",
-            "vertical_alignment_flex_direction_column": "flex-end",
-            "column_gap": 24,
-            "column_gap_mobile": 24,
-            "row_gap": 32,
-            "row_gap_mobile": 24,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "enable_full_height": false,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-inverse",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 20,
-            "card_label": "Animal & Dolls",
-            "card_label_text_color": "#ffffff",
-            "card_label_in_content": false,
-            "enable_preload_image": false
-          },
-          "blocks": {
-            "subheading": {
-              "type": "_simple-text",
-              "name": "t:names.subheading",
-              "static": true,
-              "settings": {
-                "text": "<p>Visible Benefits</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "text-subheading",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "loose",
-                "text_color": "text",
-                "padding-block-start": 0,
-                "padding-block-end": 12,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "heading": {
-              "type": "_simple-text",
-              "name": "t:names.heading",
-              "static": true,
-              "settings": {
-                "text": "<p>Cuddle Buddies Collection</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "h2",
-                "font": "var(--font-heading--family)",
-                "font_weight": "",
-                "font_size": 48,
-                "font_size_mobile": 34,
-                "line_height": "tight",
-                "text_color": "text",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "text": {
-              "type": "_simple-text",
-              "disabled": true,
-              "static": true,
-              "settings": {
-                "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                "text": "<p>Meaningful gifts that make special days even more memorable.</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2750,7 +2968,7 @@
               "type": "text",
               "name": "t:names.subheading",
               "settings": {
-                "text": "<p>Featured Collections</p>",
+                "text": "<p>SHOP OUR COLLECTIONS</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2782,7 +3000,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Made with the premium, natural <br/>materials for kids</p>",
+                "text": "<p>Something special for every child</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -2809,11 +3027,44 @@
                 "animation_delay": 250
               },
               "blocks": {}
+            },
+            "text_hkJ9LR": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>From dolls and stories to puzzles and creative play, find a toy they will love.</p>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "text",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 20,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "none",
+                "animation_delay": 250
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_VGaJQ7",
-            "text_4YQMaq"
+            "text_4YQMaq",
+            "text_hkJ9LR"
           ]
         }
       },
@@ -2821,8 +3072,7 @@
         "image_card_hDmH9F",
         "image_card_TpVeKc",
         "image_card_keLTgE",
-        "image_card_kJJqbr",
-        "image_card_UFaecL"
+        "image_card_kJJqbr"
       ],
       "name": "t:names.flex_carousel_image_cards",
       "settings": {
@@ -3769,933 +4019,6 @@
         "padding-inline-end-mobile": 16
       }
     },
-    "custom_section_LHKRWz": {
-      "type": "custom-section",
-      "blocks": {
-        "group_HGpx4H": {
-          "type": "group",
-          "name": "t:names.section_header_vertical",
-          "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "column_gap": 0,
-            "row_gap": 0,
-            "enable_sticky_desktop": true,
-            "width": "custom",
-            "custom_width": 36,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "enable_swipe_on_mobile": false,
-            "swipe_custom_width_column": false,
-            "swipe_column_width": 76,
-            "columns_mobile": 2,
-            "column_gap_mobile": 0,
-            "row_gap_mobile": 0,
-            "device": "mobile",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "padding-block-start-mobile": 0,
-            "padding-block-end-mobile": 0,
-            "padding-inline-start-mobile": 0,
-            "padding-inline-end-mobile": 0
-          },
-          "blocks": {
-            "text_QfqhAF": {
-              "type": "text",
-              "name": "t:names.subheading",
-              "settings": {
-                "text": "<p>mix your style</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "text-subheading",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "text",
-                "text_color_gradient": "",
-                "disable_line_break_mobile": false,
-                "width": "fit-content",
-                "text_alignment": "left",
-                "width_mobile": "fit-content",
-                "text_alignment_mobile": "left",
-                "padding-block-start": 0,
-                "padding-block-end": 20,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "text_hggbUk": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<p>Crafted with premium <em>materials </em></p>",
-                "highlight_style": "wavy-underline",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "#b85828",
-                "highlight_text_color": "",
-                "type_preset": "custom",
-                "font": "var(--font-heading--family)",
-                "font_weight": "",
-                "font_size": 48,
-                "font_size_mobile": 34,
-                "line_height": "tight",
-                "text_color": "text",
-                "text_color_gradient": "",
-                "disable_line_break_mobile": false,
-                "width": "fit-content",
-                "text_alignment": "left",
-                "width_mobile": "fit-content",
-                "text_alignment_mobile": "left",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "text_HDTGMB": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>Perfect for letting toddlers move their bodies and exercise their imaginations.</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "text",
-                "text_color_gradient": "",
-                "disable_line_break_mobile": false,
-                "width": "fit-content",
-                "text_alignment": "left",
-                "width_mobile": "fit-content",
-                "text_alignment_mobile": "left",
-                "padding-block-start": 24,
-                "padding-block-end": 32,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "mobile-padding-scale": 83,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "button_NXiHLw": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Explore Now",
-                "link": "",
-                "style": "primary",
-                "size": "large",
-                "icon": "caret-right",
-                "icon_only": false,
-                "icon_style": "solid",
-                "mobile_full_width": false,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "text_QfqhAF",
-            "text_hggbUk",
-            "text_HDTGMB",
-            "button_NXiHLw"
-          ]
-        },
-        "grid_GU6jYe": {
-          "type": "grid",
-          "name": "t:names.grid",
-          "settings": {
-            "vertical_alignment": "start",
-            "columns_xxl": 1,
-            "column_gap": 12,
-            "row_gap": 40,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "enable_swipe_on_mobile": true,
-            "swipe_custom_width_column": true,
-            "swipe_column_width": 68,
-            "columns_mobile": 1,
-            "column_gap_mobile": 8,
-            "row_gap_mobile": 12,
-            "device": "desktop",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "padding-block-start-mobile": 0,
-            "padding-block-end-mobile": 0,
-            "padding-inline-start-mobile": 0,
-            "padding-inline-end-mobile": 0,
-            "custom_columns": ""
-          },
-          "blocks": {
-            "group_n4jBfb": {
-              "type": "group",
-              "name": "t:names.group",
-              "settings": {
-                "content_direction": "row",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "space-between",
-                "vertical_alignment": "center",
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "column_gap": 50,
-                "row_gap": 12,
-                "enable_sticky_desktop": false,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "enable_swipe_on_mobile": false,
-                "swipe_custom_width_column": false,
-                "swipe_column_width": 76,
-                "columns_mobile": 2,
-                "column_gap_mobile": 12,
-                "row_gap_mobile": 20,
-                "device": "desktop",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 28,
-                "padding-block-start-mobile": 0,
-                "padding-block-end-mobile": 0,
-                "padding-inline-start-mobile": 0,
-                "padding-inline-end-mobile": 0
-              },
-              "blocks": {
-                "image_bB7ApL": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "link": "",
-                    "image_ratio": "adapt",
-                    "image_ratio_mobile": "adapt",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "rounded": false,
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 20,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "mobile-padding-scale": 80
-                  },
-                  "blocks": {}
-                },
-                "group_HypVtn": {
-                  "type": "group",
-                  "name": "t:names.group",
-                  "settings": {
-                    "content_direction": "column",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "flex-start",
-                    "vertical_alignment": "center",
-                    "horizontal_alignment_flex_direction_column": "flex-start",
-                    "column_gap": 12,
-                    "row_gap": 20,
-                    "enable_sticky_desktop": false,
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "enable_swipe_on_mobile": false,
-                    "swipe_custom_width_column": false,
-                    "swipe_column_width": 76,
-                    "columns_mobile": 2,
-                    "column_gap_mobile": 12,
-                    "row_gap_mobile": 16,
-                    "device": "desktop",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "padding-block-start-mobile": 0,
-                    "padding-block-end-mobile": 0,
-                    "padding-inline-start-mobile": 0,
-                    "padding-inline-end-mobile": 0
-                  },
-                  "blocks": {
-                    "text_GY67LK": {
-                      "type": "text",
-                      "name": "t:names.subheading",
-                      "settings": {
-                        "text": "<p>Baby Toys</p>",
-                        "highlight_style": "none",
-                        "highlight_font_style": "italic",
-                        "highlight_shape_color": "",
-                        "highlight_text_color": "",
-                        "type_preset": "text-subheading",
-                        "font": "var(--font-body--family)",
-                        "font_weight": "",
-                        "font_size": 15,
-                        "font_size_mobile": 15,
-                        "line_height": "normal",
-                        "text_color": "text",
-                        "text_color_gradient": "",
-                        "disable_line_break_mobile": false,
-                        "width": "fit-content",
-                        "text_alignment": "left",
-                        "width_mobile": "fit-content",
-                        "text_alignment_mobile": "left",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    },
-                    "text_NAz7iV": {
-                      "type": "text",
-                      "name": "t:names.heading",
-                      "settings": {
-                        "text": "<p>We’re obsessed with <br/>building the best.</p>",
-                        "highlight_style": "none",
-                        "highlight_font_style": "italic",
-                        "highlight_shape_color": "",
-                        "highlight_text_color": "",
-                        "type_preset": "h2",
-                        "font": "var(--font-body--family)",
-                        "font_weight": "",
-                        "font_size": 15,
-                        "font_size_mobile": 15,
-                        "line_height": "normal",
-                        "text_color": "text",
-                        "text_color_gradient": "",
-                        "disable_line_break_mobile": true,
-                        "width": "fit-content",
-                        "text_alignment": "left",
-                        "width_mobile": "fit-content",
-                        "text_alignment_mobile": "left",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    },
-                    "text_pXnXKL": {
-                      "type": "text",
-                      "name": "t:names.text",
-                      "settings": {
-                        "text": "<p>The elastic waistband ensures a snug fit, while the playful ruffles at the hems add a fun, girly touch that makes them stand out</p>",
-                        "highlight_style": "none",
-                        "highlight_font_style": "italic",
-                        "highlight_shape_color": "",
-                        "highlight_text_color": "",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_weight": "",
-                        "font_size": 15,
-                        "font_size_mobile": 15,
-                        "line_height": "normal",
-                        "text_color": "subtext",
-                        "text_color_gradient": "",
-                        "disable_line_break_mobile": false,
-                        "width": "fit-content",
-                        "text_alignment": "left",
-                        "width_mobile": "fit-content",
-                        "text_alignment_mobile": "left",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    },
-                    "button_ge3czh": {
-                      "type": "button",
-                      "name": "t:names.button",
-                      "settings": {
-                        "label": "Learn More",
-                        "link": "",
-                        "style": "plain",
-                        "size": "medium",
-                        "icon": "caret-right",
-                        "icon_only": false,
-                        "icon_style": "default",
-                        "mobile_full_width": false,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_GY67LK",
-                    "text_NAz7iV",
-                    "text_pXnXKL",
-                    "button_ge3czh"
-                  ]
-                }
-              },
-              "block_order": [
-                "image_bB7ApL",
-                "group_HypVtn"
-              ]
-            },
-            "group_UpXGjT": {
-              "type": "group",
-              "name": "t:names.group",
-              "settings": {
-                "content_direction": "row",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "space-between",
-                "vertical_alignment": "center",
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "column_gap": 50,
-                "row_gap": 12,
-                "enable_sticky_desktop": false,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "enable_swipe_on_mobile": false,
-                "swipe_custom_width_column": false,
-                "swipe_column_width": 76,
-                "columns_mobile": 2,
-                "column_gap_mobile": 12,
-                "row_gap_mobile": 20,
-                "device": "desktop",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 28,
-                "padding-block-start-mobile": 0,
-                "padding-block-end-mobile": 0,
-                "padding-inline-start-mobile": 0,
-                "padding-inline-end-mobile": 0
-              },
-              "blocks": {
-                "image_tAtCd9": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "link": "",
-                    "image_ratio": "adapt",
-                    "image_ratio_mobile": "adapt",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "rounded": false,
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 20,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "mobile-padding-scale": 80
-                  },
-                  "blocks": {}
-                },
-                "group_qxBEeY": {
-                  "type": "group",
-                  "name": "t:names.group",
-                  "settings": {
-                    "content_direction": "column",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "flex-start",
-                    "vertical_alignment": "center",
-                    "horizontal_alignment_flex_direction_column": "flex-start",
-                    "column_gap": 12,
-                    "row_gap": 20,
-                    "enable_sticky_desktop": false,
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "enable_swipe_on_mobile": false,
-                    "swipe_custom_width_column": false,
-                    "swipe_column_width": 76,
-                    "columns_mobile": 2,
-                    "column_gap_mobile": 12,
-                    "row_gap_mobile": 16,
-                    "device": "desktop",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "padding-block-start-mobile": 0,
-                    "padding-block-end-mobile": 0,
-                    "padding-inline-start-mobile": 0,
-                    "padding-inline-end-mobile": 0
-                  },
-                  "blocks": {
-                    "text_LkUEei": {
-                      "type": "text",
-                      "name": "t:names.subheading",
-                      "settings": {
-                        "text": "<p>Montessori Toys</p>",
-                        "highlight_style": "none",
-                        "highlight_font_style": "italic",
-                        "highlight_shape_color": "",
-                        "highlight_text_color": "",
-                        "type_preset": "text-subheading",
-                        "font": "var(--font-body--family)",
-                        "font_weight": "",
-                        "font_size": 15,
-                        "font_size_mobile": 15,
-                        "line_height": "normal",
-                        "text_color": "text",
-                        "text_color_gradient": "",
-                        "disable_line_break_mobile": false,
-                        "width": "fit-content",
-                        "text_alignment": "left",
-                        "width_mobile": "fit-content",
-                        "text_alignment_mobile": "left",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    },
-                    "text_XREftp": {
-                      "type": "text",
-                      "name": "t:names.heading",
-                      "settings": {
-                        "text": "<p>Makes every child's <br/>room more comfortable.</p>",
-                        "highlight_style": "none",
-                        "highlight_font_style": "italic",
-                        "highlight_shape_color": "",
-                        "highlight_text_color": "",
-                        "type_preset": "h2",
-                        "font": "var(--font-body--family)",
-                        "font_weight": "",
-                        "font_size": 15,
-                        "font_size_mobile": 15,
-                        "line_height": "normal",
-                        "text_color": "text",
-                        "text_color_gradient": "",
-                        "disable_line_break_mobile": true,
-                        "width": "fit-content",
-                        "text_alignment": "left",
-                        "width_mobile": "fit-content",
-                        "text_alignment_mobile": "left",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    },
-                    "text_KtBcJY": {
-                      "type": "text",
-                      "name": "t:names.text",
-                      "settings": {
-                        "text": "<p>The elastic waistband ensures a snug fit, while the playful ruffles at the hems add a fun, girly touch that makes them stand out</p>",
-                        "highlight_style": "none",
-                        "highlight_font_style": "italic",
-                        "highlight_shape_color": "",
-                        "highlight_text_color": "",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_weight": "",
-                        "font_size": 15,
-                        "font_size_mobile": 15,
-                        "line_height": "normal",
-                        "text_color": "subtext",
-                        "text_color_gradient": "",
-                        "disable_line_break_mobile": false,
-                        "width": "fit-content",
-                        "text_alignment": "left",
-                        "width_mobile": "fit-content",
-                        "text_alignment_mobile": "left",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    },
-                    "button_VFk3wP": {
-                      "type": "button",
-                      "name": "t:names.button",
-                      "settings": {
-                        "label": "Learn More",
-                        "link": "",
-                        "style": "plain",
-                        "size": "medium",
-                        "icon": "caret-right",
-                        "icon_only": false,
-                        "icon_style": "default",
-                        "mobile_full_width": false,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_LkUEei",
-                    "text_XREftp",
-                    "text_KtBcJY",
-                    "button_VFk3wP"
-                  ]
-                }
-              },
-              "block_order": [
-                "image_tAtCd9",
-                "group_qxBEeY"
-              ]
-            },
-            "group_8M4Tzx": {
-              "type": "group",
-              "name": "t:names.group",
-              "settings": {
-                "content_direction": "row",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "space-between",
-                "vertical_alignment": "center",
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "column_gap": 50,
-                "row_gap": 12,
-                "enable_sticky_desktop": false,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 0,
-                "enable_swipe_on_mobile": false,
-                "swipe_custom_width_column": false,
-                "swipe_column_width": 76,
-                "columns_mobile": 2,
-                "column_gap_mobile": 12,
-                "row_gap_mobile": 20,
-                "device": "desktop",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 28,
-                "padding-block-start-mobile": 0,
-                "padding-block-end-mobile": 0,
-                "padding-inline-start-mobile": 0,
-                "padding-inline-end-mobile": 0
-              },
-              "blocks": {
-                "image_fjHYgk": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "link": "",
-                    "image_ratio": "adapt",
-                    "image_ratio_mobile": "adapt",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "rounded": false,
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 20,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "mobile-padding-scale": 80
-                  },
-                  "blocks": {}
-                },
-                "group_mX33qi": {
-                  "type": "group",
-                  "name": "t:names.group",
-                  "settings": {
-                    "content_direction": "column",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "flex-start",
-                    "vertical_alignment": "center",
-                    "horizontal_alignment_flex_direction_column": "flex-start",
-                    "column_gap": 12,
-                    "row_gap": 20,
-                    "enable_sticky_desktop": false,
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "enable_swipe_on_mobile": false,
-                    "swipe_custom_width_column": false,
-                    "swipe_column_width": 76,
-                    "columns_mobile": 2,
-                    "column_gap_mobile": 12,
-                    "row_gap_mobile": 16,
-                    "device": "desktop",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "padding-block-start-mobile": 0,
-                    "padding-block-end-mobile": 0,
-                    "padding-inline-start-mobile": 0,
-                    "padding-inline-end-mobile": 0
-                  },
-                  "blocks": {
-                    "text_AEC8DY": {
-                      "type": "text",
-                      "name": "t:names.subheading",
-                      "settings": {
-                        "text": "<p>Toddler Toys</p>",
-                        "highlight_style": "none",
-                        "highlight_font_style": "italic",
-                        "highlight_shape_color": "",
-                        "highlight_text_color": "",
-                        "type_preset": "text-subheading",
-                        "font": "var(--font-body--family)",
-                        "font_weight": "",
-                        "font_size": 15,
-                        "font_size_mobile": 15,
-                        "line_height": "normal",
-                        "text_color": "text",
-                        "text_color_gradient": "",
-                        "disable_line_break_mobile": false,
-                        "width": "fit-content",
-                        "text_alignment": "left",
-                        "width_mobile": "fit-content",
-                        "text_alignment_mobile": "left",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    },
-                    "text_fbxxFT": {
-                      "type": "text",
-                      "name": "t:names.heading",
-                      "settings": {
-                        "text": "<p>Makes every child's <br/>room more comfortable.</p>",
-                        "highlight_style": "none",
-                        "highlight_font_style": "italic",
-                        "highlight_shape_color": "",
-                        "highlight_text_color": "",
-                        "type_preset": "h2",
-                        "font": "var(--font-body--family)",
-                        "font_weight": "",
-                        "font_size": 15,
-                        "font_size_mobile": 15,
-                        "line_height": "normal",
-                        "text_color": "text",
-                        "text_color_gradient": "",
-                        "disable_line_break_mobile": true,
-                        "width": "fit-content",
-                        "text_alignment": "left",
-                        "width_mobile": "fit-content",
-                        "text_alignment_mobile": "left",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    },
-                    "text_69JWfy": {
-                      "type": "text",
-                      "name": "t:names.text",
-                      "settings": {
-                        "text": "<p>The elastic waistband ensures a snug fit, while the playful ruffles at the hems add a fun, girly touch that makes them stand out</p>",
-                        "highlight_style": "none",
-                        "highlight_font_style": "italic",
-                        "highlight_shape_color": "",
-                        "highlight_text_color": "",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_weight": "",
-                        "font_size": 15,
-                        "font_size_mobile": 15,
-                        "line_height": "normal",
-                        "text_color": "subtext",
-                        "text_color_gradient": "",
-                        "disable_line_break_mobile": false,
-                        "width": "fit-content",
-                        "text_alignment": "left",
-                        "width_mobile": "fit-content",
-                        "text_alignment_mobile": "left",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    },
-                    "button_HicagW": {
-                      "type": "button",
-                      "name": "t:names.button",
-                      "settings": {
-                        "label": "Learn More",
-                        "link": "",
-                        "style": "plain",
-                        "size": "medium",
-                        "icon": "caret-right",
-                        "icon_only": false,
-                        "icon_style": "default",
-                        "mobile_full_width": false,
-                        "animation_type": "none",
-                        "animation_delay": 250
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "text_AEC8DY",
-                    "text_fbxxFT",
-                    "text_69JWfy",
-                    "button_HicagW"
-                  ]
-                }
-              },
-              "block_order": [
-                "image_fjHYgk",
-                "group_mX33qi"
-              ]
-            }
-          },
-          "block_order": [
-            "group_n4jBfb",
-            "group_UpXGjT",
-            "group_8M4Tzx"
-          ]
-        }
-      },
-      "block_order": [
-        "group_HGpx4H",
-        "grid_GU6jYe"
-      ],
-      "name": "t:names.custom_section",
-      "settings": {
-        "container": "page-width",
-        "content_direction": "row",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "space-between",
-        "vertical_alignment": "flex-start",
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "column_gap": 50,
-        "row_gap": 12,
-        "column_gap_mobile": 12,
-        "row_gap_mobile": 32,
-        "use_color_scheme_in_container": false,
-        "color_scheme": "",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "device": "mobile",
-        "padding-block-start": 0,
-        "padding-block-end": 100,
-        "padding-inline-start": 15,
-        "padding-inline-end": 15,
-        "padding-block-start-mobile": 0,
-        "padding-block-end-mobile": 48,
-        "padding-inline-start-mobile": 16,
-        "padding-inline-end-mobile": 16
-      }
-    },
     "custom_section_VgyLn7": {
       "type": "custom-section",
       "blocks": {
@@ -4719,7 +4042,7 @@
             "text_F8VEWR": {
               "type": "text",
               "settings": {
-                "text": "<p>Over 1000 Reviews</p>",
+                "text": "<p>Made for learning through play</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -4752,7 +4075,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Shop",
-                "link": "",
+                "link": "shopify://collections/all",
                 "style": "primary",
                 "size": "medium",
                 "icon": "none",
@@ -4767,7 +4090,7 @@
             "text_eyntTq": {
               "type": "text",
               "settings": {
-                "text": "<p>Loved by Kids</p>",
+                "text": "<p>Free UK delivery over £75.00</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -4800,7 +4123,103 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Shop",
-                "link": "",
+                "link": "shopify://collections/all",
+                "style": "primary",
+                "size": "medium",
+                "icon": "none",
+                "icon_only": false,
+                "icon_style": "default",
+                "mobile_full_width": false,
+                "animation_type": "none",
+                "animation_delay": 250
+              },
+              "blocks": {}
+            },
+            "text_6bMrAm": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Loved by families worldwide</p>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "text",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "none",
+                "animation_delay": 250
+              },
+              "blocks": {}
+            },
+            "button_aJjkmL": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop",
+                "link": "shopify://collections/all",
+                "style": "primary",
+                "size": "medium",
+                "icon": "none",
+                "icon_only": false,
+                "icon_style": "default",
+                "mobile_full_width": false,
+                "animation_type": "none",
+                "animation_delay": 250
+              },
+              "blocks": {}
+            },
+            "text_qd93JC": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Award-winning Islamic Toys</p>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "text",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "none",
+                "animation_delay": 250
+              },
+              "blocks": {}
+            },
+            "button_UAMFtP": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop",
+                "link": "shopify://collections/all",
                 "style": "primary",
                 "size": "medium",
                 "icon": "none",
@@ -4817,7 +4236,11 @@
             "text_F8VEWR",
             "button_fJHpTa",
             "text_eyntTq",
-            "button_wgpHz8"
+            "button_wgpHz8",
+            "text_6bMrAm",
+            "button_aJjkmL",
+            "text_qd93JC",
+            "button_UAMFtP"
           ]
         }
       },
@@ -4837,7 +4260,7 @@
         "column_gap_mobile": 12,
         "row_gap_mobile": 12,
         "use_color_scheme_in_container": false,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-d4ebd95c-1cfd-4fdd-a36a-7f613dfba49d",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -5110,7 +4533,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Happy Customers</p>",
+                "text": "<p>See why families love Desi Doll</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -5164,7 +4587,7 @@
         "columns_mobile": "1",
         "column_gap_mobile": 8,
         "row_gap_mobile": 24,
-        "color_scheme": "scheme-6",
+        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
         "device": "mobile",
         "padding-block-start": 100,
         "padding-block-end": 80,
@@ -5172,21 +4595,17 @@
         "padding-block-end-mobile": 48
       }
     },
-    "custom_section_rfG3Qi": {
+    "custom_section_UaGG4a": {
       "type": "custom-section",
       "blocks": {
-        "group_3H3m8C": {
-          "type": "group",
-          "name": "t:names.group",
+        "grid_T7HBHE": {
+          "type": "grid",
+          "name": "t:names.grid",
           "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "columns_xxl": 2,
             "column_gap": 12,
             "row_gap": 12,
-            "enable_sticky_desktop": true,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -5197,11 +4616,11 @@
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0,
-            "enable_swipe_on_mobile": false,
-            "swipe_custom_width_column": false,
-            "swipe_column_width": 76,
-            "columns_mobile": 2,
-            "column_gap_mobile": 12,
+            "enable_swipe_on_mobile": true,
+            "swipe_custom_width_column": true,
+            "swipe_column_width": 70,
+            "columns_mobile": 1,
+            "column_gap_mobile": 24,
             "row_gap_mobile": 12,
             "device": "desktop",
             "padding-block-start": 0,
@@ -5211,132 +4630,80 @@
             "padding-block-start-mobile": 0,
             "padding-block-end-mobile": 0,
             "padding-inline-start-mobile": 0,
-            "padding-inline-end-mobile": 0
+            "padding-inline-end-mobile": 0,
+            "custom_columns": "md:2,lg:4"
           },
           "blocks": {
-            "image_card_VJ6Th3": {
-              "type": "image-card",
-              "name": "t:names.image_card_timer",
+            "video_8bwM43": {
+              "type": "video",
+              "name": "t:names.video",
               "settings": {
-                "show_content_below": false,
-                "gap": 20,
-                "gap_mobile": 20,
-                "toggle_overlay": true,
-                "overlay_color": "#00000026",
-                "image_ratio": "adapt",
-                "image_ratio_mobile": "adapt",
-                "image_border": "none",
-                "image_border_width": 1,
-                "image_border_opacity": 100,
-                "image_border_radius": 0,
-                "card_link": "",
-                "edge_gap": "xl",
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "horizontal_alignment_flex_direction_column": "center",
-                "horizontal_alignment_mobile": "",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "column_gap": 12,
-                "column_gap_mobile": 12,
-                "row_gap": 32,
-                "row_gap_mobile": 24,
+                "source": "url",
+                "video_url": "https://www.youtube.com/watch?v=AoZ74RBMMpM",
+                "video_autoplay": false,
+                "video_loop": true,
+                "cover_image": "shopify://shop_images/cover-video.jpg",
+                "alt": "Our Story",
+                "video_ratio": "16/9",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "enable_full_height": false,
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-inverse",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 20,
-                "card_label": "",
-                "card_label_text_color": "#ffffff",
-                "card_label_in_content": false,
-                "enable_preload_image": false
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "group_bCc9nk": {
+              "type": "group",
+              "name": "t:names.section_header_vertical",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "column_gap": 0,
+                "row_gap": 0,
+                "enable_sticky_desktop": false,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "enable_swipe_on_mobile": false,
+                "swipe_custom_width_column": false,
+                "swipe_column_width": 76,
+                "columns_mobile": 2,
+                "column_gap_mobile": 0,
+                "row_gap_mobile": 0,
+                "device": "desktop",
+                "padding-block-start": 40,
+                "padding-block-end": 40,
+                "padding-inline-start": 40,
+                "padding-inline-end": 40,
+                "padding-block-start-mobile": 0,
+                "padding-block-end-mobile": 24,
+                "padding-inline-start-mobile": 0,
+                "padding-inline-end-mobile": 0
               },
               "blocks": {
-                "countdown_timer_jnBFNn": {
-                  "type": "countdown-timer",
-                  "name": "t:names.countdown_timer",
+                "text_FMjxtn": {
+                  "type": "text",
+                  "name": "t:names.text",
                   "settings": {
-                    "type": "evergreen",
-                    "duration": "every_month",
-                    "time": "2026/08/20 03:45 PM",
-                    "show_text": false,
-                    "style": "card",
-                    "column_gap": 8,
-                    "number_preset": "h2",
-                    "number_font": "var(--font-body--family)",
-                    "number_font_weight": "",
-                    "number_font_size": 68,
-                    "number_font_size_mobile": 38,
-                    "inherit_color_scheme": true,
-                    "number_color": "",
-                    "number_background_color": "",
-                    "column_gap_mobile": 6
-                  },
-                  "blocks": {}
-                },
-                "subheading": {
-                  "type": "_simple-text",
-                  "name": "t:names.subheading",
-                  "static": true,
-                  "settings": {
-                    "text": "<p>New Campaign</p>",
-                    "highlight_style": "none",
-                    "highlight_font_style": "italic",
-                    "highlight_shape_color": "",
-                    "highlight_text_color": "",
-                    "type_preset": "text-subheading",
-                    "font": "var(--font-body--family)",
-                    "font_weight": "",
-                    "font_size": 15,
-                    "font_size_mobile": 15,
-                    "line_height": "normal",
-                    "text_color": "text",
-                    "padding-block-start": 0,
-                    "padding-block-end": 20,
-                    "mobile-padding-scale": 80,
-                    "animation_type": "none",
-                    "animation_delay": 250
-                  },
-                  "blocks": {}
-                },
-                "heading": {
-                  "type": "_simple-text",
-                  "name": "t:names.heading",
-                  "static": true,
-                  "settings": {
-                    "text": "<p>Start Building The <br/><em>Dream Room</em></p>",
-                    "highlight_style": "standard",
-                    "highlight_font_style": "italic",
-                    "highlight_shape_color": "",
-                    "highlight_text_color": "",
-                    "type_preset": "custom",
-                    "font": "var(--font-heading--family)",
-                    "font_weight": "",
-                    "font_size": 48,
-                    "font_size_mobile": 34,
-                    "line_height": "tight",
-                    "text_color": "text",
-                    "padding-block-start": 0,
-                    "padding-block-end": 24,
-                    "mobile-padding-scale": 80,
-                    "animation_type": "none",
-                    "animation_delay": 250
-                  },
-                  "blocks": {}
-                },
-                "text": {
-                  "type": "_simple-text",
-                  "disabled": true,
-                  "static": true,
-                  "settings": {
-                    "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+                    "text": "<p>Our Story</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -5346,27 +4713,99 @@
                     "font_weight": "",
                     "font_size": 15,
                     "font_size_mobile": 15,
-                    "line_height": "loose",
-                    "text_color": "text",
-                    "padding-block-start": 12,
-                    "padding-block-end": 24,
+                    "line_height": "normal",
+                    "text_color": "subtext",
+                    "text_color_gradient": "",
+                    "disable_line_break_mobile": false,
+                    "width": "fit-content",
+                    "text_alignment": "left",
+                    "width_mobile": "fit-content",
+                    "text_alignment_mobile": "left",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
                     "mobile-padding-scale": 80,
                     "animation_type": "none",
                     "animation_delay": 250
                   },
                   "blocks": {}
                 },
-                "button": {
-                  "type": "button",
-                  "static": true,
+                "text_PhDrGx": {
+                  "type": "text",
+                  "name": "t:names.heading",
                   "settings": {
-                    "label": "Shop Now",
+                    "text": "<p>Why families choose Desi Doll?</p>",
+                    "highlight_style": "none",
+                    "highlight_font_style": "italic",
+                    "highlight_shape_color": "",
+                    "highlight_text_color": "",
+                    "type_preset": "h1",
+                    "font": "var(--font-body--family)",
+                    "font_weight": "",
+                    "font_size": 15,
+                    "font_size_mobile": 15,
+                    "line_height": "normal",
+                    "text_color": "text",
+                    "text_color_gradient": "",
+                    "disable_line_break_mobile": false,
+                    "width": "fit-content",
+                    "text_alignment": "left",
+                    "width_mobile": "fit-content",
+                    "text_alignment_mobile": "left",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
+                    "mobile-padding-scale": 80,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                },
+                "text_bmDBEN": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>She found it hard to find toys that were fun, educational and made for Muslim children. So she decided to create her own.<br/>Today, Desi Doll makes award-winning Islamic toys loved by families around the world.</p>",
+                    "highlight_style": "none",
+                    "highlight_font_style": "italic",
+                    "highlight_shape_color": "",
+                    "highlight_text_color": "",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_weight": "",
+                    "font_size": 15,
+                    "font_size_mobile": 15,
+                    "line_height": "normal",
+                    "text_color": "subtext",
+                    "text_color_gradient": "",
+                    "disable_line_break_mobile": false,
+                    "width": "fit-content",
+                    "text_alignment": "left",
+                    "width_mobile": "fit-content",
+                    "text_alignment_mobile": "left",
+                    "padding-block-start": 40,
+                    "padding-block-end": 40,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
+                    "mobile-padding-scale": 80,
+                    "animation_type": "none",
+                    "animation_delay": 250
+                  },
+                  "blocks": {}
+                },
+                "button_GMNfDh": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "label": "Read Our Story",
                     "link": "",
                     "style": "primary",
-                    "size": "large",
-                    "icon": "caret-right",
+                    "size": "medium",
+                    "icon": "none",
                     "icon_only": false,
-                    "icon_style": "solid",
+                    "icon_style": "default",
                     "mobile_full_width": false,
                     "animation_type": "none",
                     "animation_delay": 250
@@ -5375,189 +4814,55 @@
                 }
               },
               "block_order": [
-                "countdown_timer_jnBFNn"
+                "text_FMjxtn",
+                "text_PhDrGx",
+                "text_bmDBEN",
+                "button_GMNfDh"
               ]
             }
           },
           "block_order": [
-            "image_card_VJ6Th3"
-          ]
-        },
-        "group_ERxKea": {
-          "type": "group",
-          "name": "t:names.group",
-          "settings": {
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "column_gap": 12,
-            "row_gap": 40,
-            "enable_sticky_desktop": false,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "enable_swipe_on_mobile": false,
-            "swipe_custom_width_column": false,
-            "swipe_column_width": 76,
-            "columns_mobile": 2,
-            "column_gap_mobile": 12,
-            "row_gap_mobile": 48,
-            "device": "desktop",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "padding-block-start-mobile": 0,
-            "padding-block-end-mobile": 0,
-            "padding-inline-start-mobile": 0,
-            "padding-inline-end-mobile": 0
-          },
-          "blocks": {
-            "featured_collection_a8UmQm": {
-              "type": "featured-collection",
-              "name": "t:names.featured_collection",
-              "settings": {
-                "collection": "",
-                "product_count": 6,
-                "type": "carousel",
-                "columns_xxl": 2,
-                "column_gap": 10,
-                "row_gap": 10,
-                "enable_swipe_on_mobile": true,
-                "swipe_custom_width_column": true,
-                "swipe_column_width": 68,
-                "columns_mobile": "1",
-                "column_gap_mobile": 8,
-                "row_gap_mobile": 8,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 10,
-                "border_radius": 0,
-                "device": "desktop",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "padding-block-start-mobile": 0,
-                "padding-block-end-mobile": 0,
-                "padding-inline-start-mobile": 0,
-                "padding-inline-end-mobile": 0
-              },
-              "blocks": {
-                "static-product-card": {
-                  "type": "_product-card",
-                  "static": true,
-                  "settings": {},
-                  "blocks": {}
-                }
-              },
-              "block_order": []
-            },
-            "featured_collection_3Pe3w3": {
-              "type": "featured-collection",
-              "name": "t:names.featured_collection",
-              "settings": {
-                "collection": "",
-                "product_count": 6,
-                "type": "carousel",
-                "columns_xxl": 2,
-                "column_gap": 10,
-                "row_gap": 10,
-                "enable_swipe_on_mobile": true,
-                "swipe_custom_width_column": true,
-                "swipe_column_width": 68,
-                "columns_mobile": "1",
-                "column_gap_mobile": 8,
-                "row_gap_mobile": 8,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 10,
-                "border_radius": 0,
-                "device": "desktop",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "padding-block-start-mobile": 0,
-                "padding-block-end-mobile": 0,
-                "padding-inline-start-mobile": 0,
-                "padding-inline-end-mobile": 0
-              },
-              "blocks": {
-                "static-product-card": {
-                  "type": "_product-card",
-                  "static": true,
-                  "settings": {},
-                  "blocks": {}
-                }
-              },
-              "block_order": []
-            }
-          },
-          "block_order": [
-            "featured_collection_a8UmQm",
-            "featured_collection_3Pe3w3"
+            "video_8bwM43",
+            "group_bCc9nk"
           ]
         }
       },
       "block_order": [
-        "group_3H3m8C",
-        "group_ERxKea"
+        "grid_T7HBHE"
       ],
       "name": "t:names.custom_section",
       "settings": {
         "container": "page-width",
-        "content_direction": "row",
+        "content_direction": "column",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "space-between",
-        "vertical_alignment": "flex-start",
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
         "horizontal_alignment_flex_direction_column": "flex-start",
-        "column_gap": 60,
-        "row_gap": 12,
+        "column_gap": 12,
+        "row_gap": 0,
         "column_gap_mobile": 12,
-        "row_gap_mobile": 48,
+        "row_gap_mobile": 0,
         "use_color_scheme_in_container": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
         "device": "desktop",
         "padding-block-start": 100,
-        "padding-block-end": 0,
+        "padding-block-end": 100,
         "padding-inline-start": 15,
         "padding-inline-end": 15,
         "padding-block-start-mobile": 48,
-        "padding-block-end-mobile": 0,
+        "padding-block-end-mobile": 48,
         "padding-inline-start-mobile": 16,
         "padding-inline-end-mobile": 16
       }
     },
-    "custom_section_UaGG4a": {
+    "custom_section_eddeX3": {
       "type": "custom-section",
       "blocks": {
-        "group_kA6aJ6": {
+        "group_JMwPgA": {
           "type": "group",
           "name": "t:names.section_header_vertical",
           "settings": {
@@ -5596,11 +4901,11 @@
             "padding-inline-end-mobile": 0
           },
           "blocks": {
-            "text_PhDrGx": {
+            "text_NjwMTE": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Why Choose Us ?</p>",
+                "text": "<p>Why families choose Desi Doll?</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -5630,10 +4935,10 @@
             }
           },
           "block_order": [
-            "text_PhDrGx"
+            "text_NjwMTE"
           ]
         },
-        "grid_T7HBHE": {
+        "grid_MqHcT7": {
           "type": "grid",
           "name": "t:names.grid",
           "settings": {
@@ -5669,20 +4974,21 @@
             "custom_columns": "md:2,lg:4"
           },
           "blocks": {
-            "icon_box_Tkap8p": {
+            "icon_box_7GddD8": {
               "type": "icon-box",
               "name": "t:names.icon_box_standard",
               "settings": {
                 "direction": "vertical",
                 "text_align": "center",
                 "icon": "magic-wand",
+                "icon_image_upload": "shopify://shop_images/icon-4.svg",
                 "icon_spacing": 16,
                 "icon_size": "custom-size",
                 "icon_width": 90,
                 "icon_width_mobile": 90,
-                "heading": "Curated With Care",
+                "heading": "A trusted, award-winning brand",
                 "heading_preset": "h5",
-                "text": "<p>Every toy is handpicked for quality, safety & endless hours.</p>",
+                "text": "<p>A recognised range already loved by Muslim families worldwide.</p>",
                 "text_color": "subtext",
                 "link": "",
                 "show_link_icon": true,
@@ -5697,20 +5003,21 @@
               },
               "blocks": {}
             },
-            "icon_box_hEP4Gh": {
+            "icon_box_LAn3kT": {
               "type": "icon-box",
               "name": "t:names.icon_box_standard",
               "settings": {
                 "direction": "vertical",
                 "text_align": "center",
                 "icon": "magic-wand",
+                "icon_image_upload": "shopify://shop_images/icon-5.svg",
                 "icon_spacing": 16,
                 "icon_size": "custom-size",
                 "icon_width": 90,
                 "icon_width_mobile": 90,
-                "heading": "Fast & Friendly Delivery",
+                "heading": "Products with proven appeal",
                 "heading_preset": "h5",
-                "text": "<p>We pack with love & ship lightning-fast to bring smiles.</p>",
+                "text": "<p>Meaningful dolls, books and toys for gifting and everyday learning.</p>",
                 "text_color": "subtext",
                 "link": "",
                 "show_link_icon": true,
@@ -5725,20 +5032,21 @@
               },
               "blocks": {}
             },
-            "icon_box_i8DJm7": {
+            "icon_box_bmfByg": {
               "type": "icon-box",
               "name": "t:names.icon_box_standard",
               "settings": {
                 "direction": "vertical",
                 "text_align": "center",
                 "icon": "magic-wand",
+                "icon_image_upload": "shopify://shop_images/icon-6.svg",
                 "icon_spacing": 16,
                 "icon_size": "custom-size",
                 "icon_width": 90,
                 "icon_width_mobile": 90,
-                "heading": "Playful Picks",
+                "heading": "A range for key occasions",
                 "heading_preset": "h5",
-                "text": "<p>From curious thinkers to wild explorers We've got something</p>",
+                "text": "<p>Serve year-round demand across birthdays, Ramadan, Eid and more.</p>",
                 "text_color": "subtext",
                 "link": "",
                 "show_link_icon": true,
@@ -5753,20 +5061,21 @@
               },
               "blocks": {}
             },
-            "icon_box_6cVCng": {
+            "icon_box_QdWz3W": {
               "type": "icon-box",
               "name": "t:names.icon_box_standard",
               "settings": {
                 "direction": "vertical",
                 "text_align": "center",
                 "icon": "magic-wand",
+                "icon_image_upload": "shopify://shop_images/icon-7.svg",
                 "icon_spacing": 16,
                 "icon_size": "custom-size",
                 "icon_width": 90,
                 "icon_width_mobile": 90,
-                "heading": "Real Reviews",
+                "heading": "Support beyond your first order",
                 "heading_preset": "h5",
-                "text": "<p>Loved by kids. Trusted by parents. Shop with total peace of mind.</p>",
+                "text": "<p>Get help choosing your range and growing Desi Doll in your store.</p>",
                 "text_color": "subtext",
                 "link": "",
                 "show_link_icon": true,
@@ -5783,16 +5092,16 @@
             }
           },
           "block_order": [
-            "icon_box_Tkap8p",
-            "icon_box_hEP4Gh",
-            "icon_box_i8DJm7",
-            "icon_box_6cVCng"
+            "icon_box_7GddD8",
+            "icon_box_LAn3kT",
+            "icon_box_bmfByg",
+            "icon_box_QdWz3W"
           ]
         }
       },
       "block_order": [
-        "group_kA6aJ6",
-        "grid_T7HBHE"
+        "group_JMwPgA",
+        "grid_MqHcT7"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -5807,7 +5116,7 @@
         "column_gap_mobile": 12,
         "row_gap_mobile": 0,
         "use_color_scheme_in_container": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -5868,6 +5177,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "image": "shopify://shop_images/sub-now.png",
                 "link": "",
                 "image_ratio": "adapt",
                 "image_ratio_mobile": "adapt",
@@ -5924,7 +5234,7 @@
               "name": "t:names.newsletter",
               "settings": {
                 "text_align": "center",
-                "newsletter_term": "<p>By subscribing you agree to the <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Use</a> & <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy.</a></p>",
+                "newsletter_term": "<p><strong>Get 10% off instantly when you sign up for our newsletters.</strong></p><p>By subscribing you agree to the <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Use</a> & <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy.</a></p>",
                 "newsletter_term_text_color": "text",
                 "width": "fill",
                 "custom_width": 100,
@@ -5954,6 +5264,7 @@
               "type": "_layered-image",
               "name": "Image",
               "settings": {
+                "image": "shopify://shop_images/sub1.webp",
                 "width": 220,
                 "offset_y": 20,
                 "offset_x": 6,
@@ -5969,6 +5280,7 @@
               "type": "_layered-image",
               "name": "Image",
               "settings": {
+                "image": "shopify://shop_images/sub2.webp",
                 "width": 170,
                 "offset_y": -4,
                 "offset_x": 78,
@@ -5984,7 +5296,8 @@
               "type": "_layered-image",
               "name": "Image",
               "settings": {
-                "width": 200,
+                "image": "shopify://shop_images/sub3.webp",
+                "width": 140,
                 "offset_y": 58,
                 "offset_x": 80,
                 "border": "none",
@@ -6010,7 +5323,7 @@
       "settings": {
         "content_width": 38,
         "use_color_scheme_in_container": true,
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-f5edb420-fa70-41d7-8c77-7b3105db39e2",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -6021,10 +5334,10 @@
         "padding-block-end": 110
       }
     },
-    "custom_section_k4Keca": {
+    "custom_section_w7DzRz": {
       "type": "custom-section",
       "blocks": {
-        "group_nqaD3i": {
+        "group_6dW8DM": {
           "type": "group",
           "name": "t:names.section_header_vertical",
           "settings": {
@@ -6034,7 +5347,7 @@
             "vertical_alignment": "center",
             "horizontal_alignment_flex_direction_column": "center",
             "column_gap": 0,
-            "row_gap": 24,
+            "row_gap": 0,
             "enable_sticky_desktop": false,
             "width": "fill",
             "custom_width": 100,
@@ -6051,23 +5364,23 @@
             "swipe_column_width": 76,
             "columns_mobile": 2,
             "column_gap_mobile": 0,
-            "row_gap_mobile": 20,
-            "device": "mobile",
+            "row_gap_mobile": 0,
+            "device": "desktop",
             "padding-block-start": 0,
             "padding-block-end": 60,
-            "padding-inline-start": 50,
-            "padding-inline-end": 50,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
             "padding-block-start-mobile": 0,
             "padding-block-end-mobile": 24,
-            "padding-inline-start-mobile": 16,
-            "padding-inline-end-mobile": 16
+            "padding-inline-start-mobile": 0,
+            "padding-inline-end-mobile": 0
           },
           "blocks": {
-            "text_ghePmd": {
+            "text_wcq3fP": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Community Powerd</p>",
+                "text": "<p>Loved by families around the world</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -6080,7 +5393,7 @@
                 "line_height": "normal",
                 "text_color": "text",
                 "text_color_gradient": "",
-                "disable_line_break_mobile": true,
+                "disable_line_break_mobile": false,
                 "width": "fit-content",
                 "text_alignment": "left",
                 "width_mobile": "fit-content",
@@ -6095,281 +5408,376 @@
               },
               "blocks": {}
             },
-            "group_DagK86": {
-              "type": "group",
-              "name": "t:names.group",
+            "text_APimFp": {
+              "type": "text",
+              "name": "t:names.text",
               "settings": {
-                "content_direction": "row",
-                "vertical_on_mobile": false,
-                "horizontal_alignment": "center",
-                "vertical_alignment": "center",
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "column_gap": 8,
-                "row_gap": 8,
-                "enable_sticky_desktop": false,
-                "width": "fill",
+                "text": "<p>Award-winning toys available from trusted retailers.</p>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "subtext",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 20,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "none",
+                "animation_delay": 250
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_wcq3fP",
+            "text_APimFp"
+          ]
+        },
+        "grid_zbQCWh": {
+          "type": "grid",
+          "name": "t:names.grid",
+          "settings": {
+            "vertical_alignment": "start",
+            "columns_xxl": 5,
+            "column_gap": 12,
+            "row_gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "enable_swipe_on_mobile": true,
+            "swipe_custom_width_column": true,
+            "swipe_column_width": 70,
+            "columns_mobile": 1,
+            "column_gap_mobile": 24,
+            "row_gap_mobile": 12,
+            "device": "desktop",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "padding-block-start-mobile": 0,
+            "padding-block-end-mobile": 0,
+            "padding-inline-start-mobile": 0,
+            "padding-inline-end-mobile": 0,
+            "custom_columns": "md:2,lg:4"
+          },
+          "blocks": {
+            "image_4EmFEF": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo1.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
+                "rounded": false,
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
-                "enable_swipe_on_mobile": false,
-                "swipe_custom_width_column": false,
-                "swipe_column_width": 76,
-                "columns_mobile": 2,
-                "column_gap_mobile": 8,
-                "row_gap_mobile": 8,
-                "device": "desktop",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "padding-block-start-mobile": 0,
-                "padding-block-end-mobile": 0,
-                "padding-inline-start-mobile": 0,
-                "padding-inline-end-mobile": 0
+                "mobile-padding-scale": 80
               },
-              "blocks": {
-                "text_eMriMA": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Follow us on Instagram</p>",
-                    "highlight_style": "standard",
-                    "highlight_font_style": "normal",
-                    "highlight_shape_color": "",
-                    "highlight_text_color": "",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_weight": "",
-                    "font_size": 15,
-                    "font_size_mobile": 15,
-                    "line_height": "normal",
-                    "text_color": "subtext",
-                    "text_color_gradient": "",
-                    "disable_line_break_mobile": false,
-                    "width": "fit-content",
-                    "text_alignment": "left",
-                    "width_mobile": "fit-content",
-                    "text_alignment_mobile": "left",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "mobile-padding-scale": 84,
-                    "animation_type": "none",
-                    "animation_delay": 250
-                  },
-                  "blocks": {}
-                },
-                "button_3W99rq": {
-                  "type": "button",
-                  "name": "t:names.button",
-                  "settings": {
-                    "label": "@littlepebble.co",
-                    "link": "",
-                    "style": "outline",
-                    "size": "small",
-                    "icon": "none",
-                    "icon_only": false,
-                    "icon_style": "default",
-                    "mobile_full_width": false,
-                    "animation_type": "none",
-                    "animation_delay": 250
-                  },
-                  "blocks": {}
-                }
+              "blocks": {}
+            },
+            "image_X48XPx": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo2.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
               },
-              "block_order": [
-                "text_eMriMA",
-                "button_3W99rq"
-              ]
+              "blocks": {}
+            },
+            "image_YfgFyR": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo3.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_73HG8L": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo4.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_rqArUe": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo5.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_YdLqGm": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo6.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_xG3WFM": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo7.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_HLgMEh": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo8.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_4PkHEE": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo9.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_jqKBr9": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo10.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_ghePmd",
-            "group_DagK86"
-          ]
-        },
-        "marquee_YDebzF": {
-          "type": "_marquee",
-          "settings": {
-            "direction": "forward",
-            "speed": 0.2,
-            "angle": 0,
-            "pause_on_hover": true,
-            "show_edge_fade": true,
-            "enable_parallax": false,
-            "column_gap": 10,
-            "column_gap_mobile": 8,
-            "color_scheme": "",
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0
-          },
-          "blocks": {
-            "marquee_gallery_item_hyxUnq": {
-              "type": "_marquee-gallery-item",
-              "name": "t:names.gallery_item",
-              "settings": {
-                "type": "image",
-                "link": "",
-                "heading": "",
-                "type_preset": "paragraph",
-                "text_color": "text",
-                "width": 260,
-                "width_tablet": 280,
-                "width_mobile": 150,
-                "border_radius": 20
-              },
-              "blocks": {}
-            },
-            "marquee_gallery_item_dXhgUi": {
-              "type": "_marquee-gallery-item",
-              "name": "t:names.gallery_item",
-              "settings": {
-                "type": "image",
-                "link": "",
-                "heading": "",
-                "type_preset": "paragraph",
-                "text_color": "text",
-                "width": 260,
-                "width_tablet": 280,
-                "width_mobile": 150,
-                "border_radius": 20
-              },
-              "blocks": {}
-            },
-            "marquee_gallery_item_zaN76j": {
-              "type": "_marquee-gallery-item",
-              "name": "t:names.gallery_item",
-              "settings": {
-                "type": "image",
-                "link": "",
-                "heading": "",
-                "type_preset": "paragraph",
-                "text_color": "text",
-                "width": 260,
-                "width_tablet": 280,
-                "width_mobile": 150,
-                "border_radius": 20
-              },
-              "blocks": {}
-            },
-            "marquee_gallery_item_yqU6rz": {
-              "type": "_marquee-gallery-item",
-              "name": "t:names.gallery_item",
-              "settings": {
-                "type": "image",
-                "link": "",
-                "heading": "",
-                "type_preset": "paragraph",
-                "text_color": "text",
-                "width": 260,
-                "width_tablet": 280,
-                "width_mobile": 150,
-                "border_radius": 20
-              },
-              "blocks": {}
-            },
-            "marquee_gallery_item_Y9inMM": {
-              "type": "_marquee-gallery-item",
-              "name": "t:names.gallery_item",
-              "settings": {
-                "type": "image",
-                "link": "",
-                "heading": "",
-                "type_preset": "paragraph",
-                "text_color": "text",
-                "width": 260,
-                "width_tablet": 280,
-                "width_mobile": 150,
-                "border_radius": 20
-              },
-              "blocks": {}
-            },
-            "marquee_gallery_item_aaYEQY": {
-              "type": "_marquee-gallery-item",
-              "name": "t:names.gallery_item",
-              "settings": {
-                "type": "image",
-                "link": "",
-                "heading": "",
-                "type_preset": "paragraph",
-                "text_color": "text",
-                "width": 260,
-                "width_tablet": 280,
-                "width_mobile": 150,
-                "border_radius": 20
-              },
-              "blocks": {}
-            },
-            "marquee_gallery_item_teFJG9": {
-              "type": "_marquee-gallery-item",
-              "name": "t:names.gallery_item",
-              "settings": {
-                "type": "image",
-                "link": "",
-                "heading": "",
-                "type_preset": "paragraph",
-                "text_color": "text",
-                "width": 260,
-                "width_tablet": 280,
-                "width_mobile": 150,
-                "border_radius": 20
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "marquee_gallery_item_hyxUnq",
-            "marquee_gallery_item_dXhgUi",
-            "marquee_gallery_item_zaN76j",
-            "marquee_gallery_item_yqU6rz",
-            "marquee_gallery_item_Y9inMM",
-            "marquee_gallery_item_aaYEQY",
-            "marquee_gallery_item_teFJG9"
+            "image_4EmFEF",
+            "image_X48XPx",
+            "image_YfgFyR",
+            "image_73HG8L",
+            "image_rqArUe",
+            "image_YdLqGm",
+            "image_xG3WFM",
+            "image_HLgMEh",
+            "image_4PkHEE",
+            "image_jqKBr9"
           ]
         }
       },
       "block_order": [
-        "group_nqaD3i",
-        "marquee_YDebzF"
+        "group_6dW8DM",
+        "grid_zbQCWh"
       ],
-      "custom_css": [
-        ".btn {text-transform: lowercase;}"
-      ],
-      "name": "t:names.marquee",
+      "name": "t:names.custom_section",
       "settings": {
-        "container": "page-width--full",
+        "container": "page-width",
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "horizontal_alignment_flex_direction_column": "flex-start",
-        "column_gap": 0,
+        "column_gap": 12,
         "row_gap": 0,
-        "column_gap_mobile": 0,
+        "column_gap_mobile": 12,
         "row_gap_mobile": 0,
-        "use_color_scheme_in_container": true,
-        "color_scheme": "",
+        "use_color_scheme_in_container": false,
+        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
-        "device": "mobile",
+        "device": "desktop",
         "padding-block-start": 100,
-        "padding-block-end": 80,
-        "padding-inline-start": 0,
-        "padding-inline-end": 0,
+        "padding-block-end": 100,
+        "padding-inline-start": 15,
+        "padding-inline-end": 15,
         "padding-block-start-mobile": 48,
         "padding-block-end-mobile": 48,
-        "padding-inline-start-mobile": 0,
-        "padding-inline-end-mobile": 0
+        "padding-inline-start-mobile": 16,
+        "padding-inline-end-mobile": 16
       }
     }
   },
@@ -6385,12 +5793,11 @@
     "flex_carousel_KkmNrt",
     "custom_section_iamhD8",
     "custom_section_C3jWp7",
-    "custom_section_LHKRWz",
     "custom_section_VgyLn7",
     "testimonials_adnGmR",
-    "custom_section_rfG3Qi",
     "custom_section_UaGG4a",
+    "custom_section_eddeX3",
     "newsletter_TP93tm",
-    "custom_section_k4Keca"
+    "custom_section_w7DzRz"
   ]
 }
