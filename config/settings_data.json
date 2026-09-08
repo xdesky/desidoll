@@ -565,6 +565,32 @@
           "notification_out_of_stock": "#727272",
           "progress_bar": "#0a9b61"
         }
+      },
+      "scheme-b65cb8ce-3381-428a-959e-b940842c4a90": {
+        "settings": {
+          "background": "#FFF4FA",
+          "background_secondary": "#eeeeee",
+          "foreground": "#2e2e2e",
+          "foreground_secondary": "#2e2e2ecc",
+          "border": "#0000001a",
+          "sale_price": "#c24c3c",
+          "primary_button_background": "#FFFFFF",
+          "primary_button_text": "#EC0B8C",
+          "secondary_button_background": "#ebebeb",
+          "secondary_button_text": "#2e2e2e",
+          "secondary_button_border": "#ebebeb",
+          "input_background": "#eeeeee",
+          "input_text": "#2e2e2e",
+          "input_focus_background": "rgba(0,0,0,0)",
+          "input_focus_text": "rgba(0,0,0,0)",
+          "swatch_border": "#ebebeb",
+          "notification_success": "#0a9b61",
+          "notification_error": "#c24c3c",
+          "notification_warning": "#ffc107",
+          "notification_info": "#007bff",
+          "notification_out_of_stock": "#727272",
+          "progress_bar": "#0a9b61"
+        }
       }
     }
   },
