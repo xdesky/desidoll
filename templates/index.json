@@ -1214,9 +1214,9 @@
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
             "title_font_weight": "500",
-            "title_font_size": 40,
-            "title_font_size_mobile": 28,
-            "title_line_height": "loose",
+            "title_font_size": 32,
+            "title_font_size_mobile": 20,
+            "title_line_height": "tight",
             "description": "<p>Find a toy that matches their age, interests and way of learning.</p>"
           },
           "blocks": {
@@ -1356,8 +1356,8 @@
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
             "title_font_weight": "500",
-            "title_font_size": 40,
-            "title_font_size_mobile": 28,
+            "title_font_size": 32,
+            "title_font_size_mobile": 20,
             "title_line_height": "loose",
             "description": "<p>The feeling of getting home from <br/>work to find the sun still shining.</p>"
           },
@@ -1497,8 +1497,8 @@
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
             "title_font_weight": "500",
-            "title_font_size": 40,
-            "title_font_size_mobile": 28,
+            "title_font_size": 32,
+            "title_font_size_mobile": 20,
             "title_line_height": "loose",
             "description": "<p>A cozy little world where big <br/>imaginations feel right at home.</p>"
           },
@@ -1638,8 +1638,8 @@
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
             "title_font_weight": "500",
-            "title_font_size": 40,
-            "title_font_size_mobile": 28,
+            "title_font_size": 32,
+            "title_font_size_mobile": 20,
             "title_line_height": "loose",
             "description": "<p>Each item is carefully selected for its <br/>quality, durability, and timeless appeal.</p>"
           },
@@ -1779,8 +1779,8 @@
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
             "title_font_weight": "500",
-            "title_font_size": 40,
-            "title_font_size_mobile": 28,
+            "title_font_size": 32,
+            "title_font_size_mobile": 20,
             "title_line_height": "loose",
             "description": "<p>Each item is carefully selected for its <br/>quality, durability, and timeless appeal.</p>"
           },
@@ -1920,8 +1920,8 @@
             "title_preset": "custom",
             "title_font": "var(--font-heading--family)",
             "title_font_weight": "500",
-            "title_font_size": 40,
-            "title_font_size_mobile": 28,
+            "title_font_size": 32,
+            "title_font_size_mobile": 20,
             "title_line_height": "loose",
             "description": "<p>Each item is carefully selected for its <br/>quality, durability, and timeless appeal.</p>"
           },
@@ -2060,6 +2060,9 @@
         "collection_highlight_6tmfWR",
         "collection_highlight_8hC4DH",
         "collection_highlight_PWfAz9"
+      ],
+      "custom_css": [
+        "@media (max-width: 767.98px) {.collection-highlight__title {min-height: inherit; } .collection-highlight__content{padding: 20px; gap: 20px }}"
       ],
       "name": "t:names.collection_highlight_with_image_card",
       "settings": {
@@ -5006,7 +5009,7 @@
         "grid_MqHcT7"
       ],
       "custom_css": [
-        "@media (max-width: 767.98px) {.icon.icon--custom-size.icon--image {width: auto;}}"
+        "@media (max-width: 767.98px) {.icon.icon--custom-size.icon--image {width: auto; }}"
       ],
       "name": "t:names.custom_section",
       "settings": {

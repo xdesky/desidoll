@@ -137,7 +137,7 @@
           "name": "t:names.column",
           "settings": {
             "width": 18,
-            "heading": "Company",
+            "heading": "Information",
             "heading_size": "h5",
             "open_default": false,
             "enable_divider": true
@@ -161,7 +161,7 @@
           "name": "t:names.column",
           "settings": {
             "width": 18,
-            "heading": "Collection",
+            "heading": "Look Around",
             "heading_size": "h5",
             "open_default": false,
             "enable_divider": true
@@ -171,7 +171,7 @@
               "type": "_footer-menu",
               "name": "t:names.menu",
               "settings": {
-                "menu": "footer"
+                "menu": "footer-menu-2"
               },
               "blocks": {}
             }
