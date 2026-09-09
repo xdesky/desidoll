@@ -16,6 +16,12 @@
     }
 }
 
+@media (max-width: 767.98px) {
+    .collage-product-card-overlay__wrapper.swipe-mobile .swipe__inner {
+        align-items: flex-end;
+    }
+}
+
 @media (min-width: 768px) {
 
     .collage-product-card-overlay__cols {

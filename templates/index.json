@@ -20,6 +20,7 @@
             "gap": 20,
             "gap_mobile": 20,
             "image": "shopify://shop_images/banner-hero.webp",
+            "image_mobile": "shopify://shop_images/bg-m-hero_1.webp",
             "toggle_overlay": true,
             "overlay_color": "#00000026",
             "image_ratio": "adapt",
@@ -42,7 +43,7 @@
             "row_gap": 32,
             "row_gap_mobile": 24,
             "width": "fill",
-            "custom_width": 100,
+            "custom_width": 46,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "enable_full_height": false,
@@ -74,10 +75,10 @@
                 "font_size": 15,
                 "font_size_mobile": 15,
                 "line_height": "normal",
-                "text_color": "text",
+                "text_color": "subtext",
                 "padding-block-start": 0,
                 "padding-block-end": 20,
-                "mobile-padding-scale": 80,
+                "mobile-padding-scale": 54,
                 "animation_type": "none",
                 "animation_delay": 250
               },
@@ -88,7 +89,7 @@
               "name": "t:names.heading",
               "static": true,
               "settings": {
-                "text": "<p>Help them learn, play<br/>and love their faith</p>",
+                "text": "<p>Help them learn, play and love their faith</p>",
                 "highlight_style": "standard",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -112,7 +113,7 @@
               "type": "_simple-text",
               "static": true,
               "settings": {
-                "text": "<p>Discover dolls, books and toys that make learning about Islam fun.<br/>Made to help children feel happy, confident and proud of who they are.</p>",
+                "text": "<p>Discover dolls, books and toys that make learning about Islam fun. Made to help children feel happy, confident and proud of who they are.</p>",
                 "highlight_style": "none",
                 "highlight_font_style": "italic",
                 "highlight_shape_color": "",
@@ -137,7 +138,7 @@
               "static": true,
               "settings": {
                 "label": "Shop Now",
-                "link": "",
+                "link": "shopify://collections/all",
                 "style": "primary",
                 "size": "large",
                 "icon": "caret-right",
@@ -156,6 +157,9 @@
       "block_order": [
         "image_card_rqLNct"
       ],
+      "custom_css": [
+        "@media (min-width: 1024px) {.edge-gap {width: 55%; } .edge-gap .image-card__text {width: 75%; }}"
+      ],
       "name": "t:names.custom_section",
       "settings": {
         "container": "page-width",
@@ -169,7 +173,7 @@
         "column_gap_mobile": 12,
         "row_gap_mobile": 12,
         "use_color_scheme_in_container": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -316,9 +320,9 @@
             "border_opacity": 100,
             "border_radius": 0,
             "enable_swipe_on_mobile": true,
-            "swipe_custom_width_column": false,
-            "swipe_column_width": 76,
-            "columns_mobile": 2,
+            "swipe_custom_width_column": true,
+            "swipe_column_width": 35,
+            "columns_mobile": 3,
             "column_gap_mobile": 8,
             "row_gap_mobile": 12,
             "device": "desktop",
@@ -753,9 +757,9 @@
                     "border_width": 1,
                     "border_opacity": 100,
                     "border_radius": 0,
-                    "enable_swipe_on_mobile": false,
-                    "swipe_custom_width_column": false,
-                    "swipe_column_width": 76,
+                    "enable_swipe_on_mobile": true,
+                    "swipe_custom_width_column": true,
+                    "swipe_column_width": 60,
                     "columns_mobile": 2,
                     "column_gap_mobile": 12,
                     "row_gap_mobile": 12,
@@ -1018,6 +1022,9 @@
       },
       "block_order": [
         "group_jbNtx6"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.block.image-block__image {display: none; }}"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -2381,8 +2388,8 @@
         "padding-block-end": 100,
         "padding-inline-start": 0,
         "padding-inline-end": 0,
-        "padding-block-start-mobile": 32,
-        "padding-block-end-mobile": 32,
+        "padding-block-start-mobile": 48,
+        "padding-block-end-mobile": 48,
         "padding-inline-start-mobile": 0,
         "padding-inline-end-mobile": 0
       }
@@ -3086,7 +3093,7 @@
         "swipe_column_width": 74,
         "columns_mobile": "1",
         "column_gap_mobile": 8,
-        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
+        "color_scheme": "scheme-1",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
@@ -4023,12 +4030,12 @@
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
-        "device": "desktop",
+        "device": "mobile",
         "padding-block-start": 100,
         "padding-block-end": 0,
         "padding-inline-start": 15,
         "padding-inline-end": 15,
-        "padding-block-start-mobile": 48,
+        "padding-block-start-mobile": 0,
         "padding-block-end-mobile": 48,
         "padding-inline-start-mobile": 16,
         "padding-inline-end-mobile": 16
@@ -4478,16 +4485,16 @@
         "row_gap": 30,
         "enable_swipe_on_mobile": true,
         "swipe_custom_width_column": true,
-        "swipe_column_width": 68,
+        "swipe_column_width": 80,
         "columns_mobile": "1",
-        "column_gap_mobile": 8,
+        "column_gap_mobile": 12,
         "row_gap_mobile": 24,
-        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
+        "color_scheme": "scheme-1",
         "device": "mobile",
         "padding-block-start": 100,
         "padding-block-end": 80,
         "padding-block-start-mobile": 48,
-        "padding-block-end-mobile": 48
+        "padding-block-end-mobile": 0
       }
     },
     "custom_section_UaGG4a": {
@@ -4511,11 +4518,11 @@
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0,
-            "enable_swipe_on_mobile": true,
+            "enable_swipe_on_mobile": false,
             "swipe_custom_width_column": true,
-            "swipe_column_width": 70,
+            "swipe_column_width": 90,
             "columns_mobile": 1,
-            "column_gap_mobile": 24,
+            "column_gap_mobile": 21,
             "row_gap_mobile": 12,
             "device": "desktop",
             "padding-block-start": 0,
@@ -4526,7 +4533,7 @@
             "padding-block-end-mobile": 0,
             "padding-inline-start-mobile": 0,
             "padding-inline-end-mobile": 0,
-            "custom_columns": "md:2,lg:4"
+            "custom_columns": "mb:1,md:2,lg:4"
           },
           "blocks": {
             "video_8bwM43": {
@@ -4583,15 +4590,15 @@
                 "columns_mobile": 2,
                 "column_gap_mobile": 0,
                 "row_gap_mobile": 0,
-                "device": "desktop",
+                "device": "mobile",
                 "padding-block-start": 40,
                 "padding-block-end": 40,
                 "padding-inline-start": 40,
                 "padding-inline-end": 40,
-                "padding-block-start-mobile": 0,
-                "padding-block-end-mobile": 24,
-                "padding-inline-start-mobile": 0,
-                "padding-inline-end-mobile": 0
+                "padding-block-start-mobile": 20,
+                "padding-block-end-mobile": 20,
+                "padding-inline-start-mobile": 20,
+                "padding-inline-end-mobile": 20
               },
               "blocks": {
                 "text_FMjxtn": {
@@ -4744,12 +4751,12 @@
         "border_opacity": 100,
         "border_radius": 0,
         "device": "desktop",
-        "padding-block-start": 100,
-        "padding-block-end": 100,
+        "padding-block-start": 0,
+        "padding-block-end": 0,
         "padding-inline-start": 15,
         "padding-inline-end": 15,
         "padding-block-start-mobile": 48,
-        "padding-block-end-mobile": 48,
+        "padding-block-end-mobile": 0,
         "padding-inline-start-mobile": 16,
         "padding-inline-end-mobile": 16
       }
@@ -4841,9 +4848,9 @@
             "columns_xxl": 4,
             "column_gap": 50,
             "row_gap": 12,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
-            "width_mobile": "fill",
+            "width_mobile": "custom",
             "custom_width_mobile": 100,
             "inherit_color_scheme": true,
             "color_scheme": "",
@@ -4853,9 +4860,9 @@
             "border_radius": 0,
             "enable_swipe_on_mobile": true,
             "swipe_custom_width_column": true,
-            "swipe_column_width": 70,
+            "swipe_column_width": 60,
             "columns_mobile": 1,
-            "column_gap_mobile": 24,
+            "column_gap_mobile": 12,
             "row_gap_mobile": 12,
             "device": "desktop",
             "padding-block-start": 0,
@@ -4997,6 +5004,9 @@
       "block_order": [
         "group_JMwPgA",
         "grid_MqHcT7"
+      ],
+      "custom_css": [
+        "@media (max-width: 767.98px) {.icon.icon--custom-size.icon--image {width: auto;}}"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -5160,6 +5170,7 @@
               "name": "Image",
               "settings": {
                 "image": "shopify://shop_images/sub1.webp",
+                "image_mobile": "shopify://shop_images/sub2-m_00aab631-688d-4c1d-b4b5-670e8c19a271.png",
                 "width": 220,
                 "offset_y": 20,
                 "offset_x": 6,
@@ -5176,6 +5187,7 @@
               "name": "Image",
               "settings": {
                 "image": "shopify://shop_images/sub2.webp",
+                "image_mobile": "shopify://shop_images/sub1-m_93c34e58-aec1-4caf-91ea-11e52992ad0e.png",
                 "width": 170,
                 "offset_y": -4,
                 "offset_x": 78,
@@ -5192,6 +5204,7 @@
               "name": "Image",
               "settings": {
                 "image": "shopify://shop_images/sub3.webp",
+                "image_mobile": "shopify://shop_images/sub3-m.png",
                 "width": 140,
                 "offset_y": 58,
                 "offset_x": 80,
@@ -5361,9 +5374,9 @@
             "border_radius": 0,
             "enable_swipe_on_mobile": true,
             "swipe_custom_width_column": true,
-            "swipe_column_width": 70,
+            "swipe_column_width": 50,
             "columns_mobile": 1,
-            "column_gap_mobile": 24,
+            "column_gap_mobile": 12,
             "row_gap_mobile": 12,
             "device": "desktop",
             "padding-block-start": 0,
@@ -5659,7 +5672,7 @@
         "column_gap_mobile": 12,
         "row_gap_mobile": 0,
         "use_color_scheme_in_container": false,
-        "color_scheme": "scheme-9fdb9918-087d-49d9-9e76-857a837c016f",
+        "color_scheme": "scheme-1",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
