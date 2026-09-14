@@ -123,23 +123,9 @@
                       },
                       "blocks": {}
                     },
-                    "product_review_stars_Dd4yxW": {
-                      "type": "_product-review-stars",
-                      "name": "t:names.product_review_stars",
-                      "settings": {
-                        "stars_style": "shaded",
-                        "show_number": true,
-                        "rating_color": "#ec0b8c",
-                        "alignment": "left",
-                        "alignment_mobile": "left",
-                        "type_preset": "paragraph",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0,
-                        "mobile-padding-scale": 80
-                      },
-                      "blocks": {}
+                    "judge_me_reviews_preview_badge_7jxmeV": {
+                      "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+                      "settings": {}
                     },
                     "product_price_3kkinj": {
                       "type": "_product-price",
@@ -159,7 +145,7 @@
                   "block_order": [
                     "product_badges_n4QFpn",
                     "product_title_xJXQRU",
-                    "product_review_stars_Dd4yxW",
+                    "judge_me_reviews_preview_badge_7jxmeV",
                     "product_price_3kkinj"
                   ]
                 },
@@ -646,7 +632,7 @@
                   "type": "_accordion-row",
                   "settings": {
                     "text": "Product Details",
-                    "open_row_by_default": true,
+                    "open_row_by_default": false,
                     "icon": "none",
                     "icon_size": "extra-large",
                     "width": 24,
@@ -693,7 +679,7 @@
                   "type": "_accordion-row",
                   "settings": {
                     "text": "What’s Included",
-                    "open_row_by_default": true,
+                    "open_row_by_default": false,
                     "icon": "none",
                     "icon_size": "extra-large",
                     "width": 24,
@@ -740,7 +726,7 @@
                   "type": "_accordion-row",
                   "settings": {
                     "text": "Key Benefits",
-                    "open_row_by_default": true,
+                    "open_row_by_default": false,
                     "icon": "none",
                     "icon_size": "extra-large",
                     "width": 24,
@@ -1106,7 +1092,7 @@
         }
       },
       "custom_css": [
-        ".media-gallery__grid-thumbnails .media-gallery__item.is-active {border-color: #EC0B8C;}"
+        ".media-gallery__grid-thumbnails .media-gallery__item.is-active {border-color: #ec0b8c;}"
       ],
       "settings": {
         "container": "page",
@@ -1133,7 +1119,7 @@
             "review_data": "real_data",
             "max_width": 1200,
             "show_shop_reviews": true,
-            "empty_state": "empty_widget"
+            "empty_state": "hide_widget"
           }
         }
       },

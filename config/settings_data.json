@@ -97,6 +97,13 @@
     "show_currency_code": false,
     "cart_item_image_ratio": "3/4",
     "content_for_index": [],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -554,7 +561,7 @@
           "secondary_button_text": "#ffffff",
           "secondary_button_border": "#ebebeb",
           "input_background": "#ffffff",
-          "input_text": "#EC0B8C",
+          "input_text": "#ec0b8c",
           "input_focus_background": "rgba(0,0,0,0)",
           "input_focus_text": "rgba(0,0,0,0)",
           "swatch_border": "#ebebeb",
