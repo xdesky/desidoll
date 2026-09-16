@@ -1107,7 +1107,7 @@
           "type": "product-overlay-card",
           "name": "t:names.product_overlay_card",
           "settings": {
-            "product": "",
+            "product": "my-daily-duas-interactive-sound-books",
             "product_image_ratio": "1/1",
             "image": "shopify://shop_images/collection4.webp",
             "image_ratio": "adapt",
@@ -2062,7 +2062,7 @@
         "collection_highlight_PWfAz9"
       ],
       "custom_css": [
-        "@media (max-width: 767.98px) {.collection-highlight__title {min-height: inherit; } .collection-highlight__content{padding: 20px; gap: 20px }}"
+        "@media (max-width: 767.98px) {.collection-highlight__title {min-height: inherit; } .collection-highlight__content {padding: 20px; gap: 20px; }}"
       ],
       "name": "t:names.collection_highlight_with_image_card",
       "settings": {
@@ -5142,7 +5142,7 @@
               "name": "t:names.newsletter",
               "settings": {
                 "text_align": "center",
-                "newsletter_term": "<p><strong>Get 10% off instantly when you sign up for our newsletters.</strong></p><p>By subscribing you agree to the <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Use</a> & <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy.</a></p>",
+                "newsletter_term": "<p><strong>Get 10% off instantly when you sign up for our newsletters. </strong><br/>By subscribing you agree to the <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Use</a> & <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy.</a></p>",
                 "newsletter_term_text_color": "text",
                 "width": "fill",
                 "custom_width": 100,
