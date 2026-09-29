@@ -22,29 +22,236 @@
         "padding-block-end-mobile": 12
       }
     },
-    "main": {
-      "type": "main-page",
+    "hero_banner_xP4jNi": {
+      "type": "hero-banner",
       "blocks": {
-        "page_title": {
-          "type": "_page-title",
-          "name": "t:names.page_title",
+        "hero-banner-media": {
+          "type": "_hero-banner-media",
+          "static": true,
           "settings": {
-            "type_preset": "h1",
-            "html_tag": "h1",
-            "font": "var(--font-body--family)",
-            "font_weight": "",
-            "font_size": 15,
-            "font_size_mobile": 15,
-            "line_height": "normal",
-            "text_color": "text",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "mobile-padding-scale": 80,
-            "animation_type": "fade-up",
-            "animation_delay": 50
+            "enable_parallax": false,
+            "parallax_direction": "vertical",
+            "parallax_intensity": 0.5,
+            "type": "image",
+            "image": "shopify://shop_images/w1.webp",
+            "toggle_overlay": true,
+            "overlay_color": "#00000033"
           },
           "blocks": {}
         },
+        "hero-banner-content": {
+          "type": "_hero-banner-content",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "position": "middle-center",
+            "width": "fit-content",
+            "custom_width": 100,
+            "horizontal_alignment_flex_direction_column_mobile": "center",
+            "position_mobile": "middle",
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "enable_transparent": true,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "animation_type": "none",
+            "animation_delay": 250
+          },
+          "blocks": {
+            "text_HEEpfd": {
+              "type": "text",
+              "settings": {
+                "text": "<p>The Desi Doll way</p>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "text-subheading",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "text",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "fade-up",
+                "animation_delay": 100
+              },
+              "blocks": {}
+            },
+            "spacer_HhQTBe": {
+              "type": "_spacer",
+              "settings": {
+                "gap": 20,
+                "gap_mobile": 16
+              },
+              "blocks": {}
+            },
+            "text_enPiVp": {
+              "type": "text",
+              "settings": {
+                "text": "<h1>Where Faith<br/>Meets <em>Fun.</em></h1>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "h1",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "text",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "fade-up",
+                "animation_delay": 200
+              },
+              "blocks": {}
+            },
+            "spacer_exJgFJ": {
+              "type": "_spacer",
+              "settings": {
+                "gap": 20,
+                "gap_mobile": 16
+              },
+              "blocks": {}
+            },
+            "text_B4PYaw": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Learning about Islam shouldn’t feel like homework.</p>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "text-subheading",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "text",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "fade-up",
+                "animation_delay": 100
+              },
+              "blocks": {}
+            },
+            "spacer_9iyRAE": {
+              "type": "_spacer",
+              "settings": {
+                "gap": 20,
+                "gap_mobile": 16
+              },
+              "blocks": {}
+            },
+            "text_QmRTwh": {
+              "type": "text",
+              "settings": {
+                "text": "<p>At Desi Doll, we turn learning into play — helping children discover Arabic, duas, salah,<br/>Quran and Islamic values through colourful, interactive products designed especially for young minds.</p>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "text",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "fade-up",
+                "animation_delay": 100
+              },
+              "blocks": {}
+            },
+            "spacer_YzWW3W": {
+              "type": "_spacer",
+              "settings": {
+                "gap": 32,
+                "gap_mobile": 24
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_HEEpfd",
+            "spacer_HhQTBe",
+            "text_enPiVp",
+            "spacer_exJgFJ",
+            "text_B4PYaw",
+            "spacer_9iyRAE",
+            "text_QmRTwh",
+            "spacer_YzWW3W"
+          ]
+        }
+      },
+      "name": "t:names.hero_banner",
+      "settings": {
+        "container": "fixed",
+        "height": "medium",
+        "edge_gap": "md",
+        "content_position": "inside",
+        "height_mobile": "auto",
+        "color_scheme": "scheme-inverse",
+        "border_radius": 20,
+        "device": "desktop",
+        "padding-block-start": 0,
+        "padding-block-end": 0,
+        "padding-block-start-mobile": 0,
+        "padding-block-end-mobile": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "blocks": {
         "page_content": {
           "type": "_page-content",
           "name": "t:names.page_content",
@@ -70,11 +277,11 @@
         }
       },
       "block_order": [
-        "page_title",
         "page_content"
       ],
       "settings": {
         "container": "fixed",
+        "container_custom_width": 880,
         "use_color_scheme_in_container": false,
         "color_scheme": "",
         "border": "none",
@@ -95,6 +302,7 @@
   },
   "order": [
     "breadcrumbs",
+    "hero_banner_xP4jNi",
     "main"
   ]
 }

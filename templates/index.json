@@ -1359,7 +1359,7 @@
             "title_font_size": 32,
             "title_font_size_mobile": 20,
             "title_line_height": "loose",
-            "description": "<p>The feeling of getting home from <br/>work to find the sun still shining.</p>"
+            "description": "<p>Make learning about Islam engaging and enjoyable with interactive toys, books and activities.</p>"
           },
           "blocks": {
             "collection-highlight-image-card": {
@@ -1367,6 +1367,7 @@
               "name": "t:names.image_card",
               "static": true,
               "settings": {
+                "image": "shopify://shop_images/bg-55.png",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "card_link": "",
@@ -1396,7 +1397,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>New Campaign</p>",
+                    "text": "<p>LITTLE LESSONS, BIG DISCOVERIES</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1420,7 +1421,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>Crafted Toys,<br/>Timeless Play</p>",
+                    "text": "<p>Explore Islam through play</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1469,8 +1470,8 @@
                   "type": "button",
                   "static": true,
                   "settings": {
-                    "label": "Shop now",
-                    "link": "",
+                    "label": "Shop Islamic Learning",
+                    "link": "shopify://collections/islamic-learning",
                     "style": "primary",
                     "size": "large",
                     "icon": "caret-right",
@@ -1500,7 +1501,7 @@
             "title_font_size": 32,
             "title_font_size_mobile": 20,
             "title_line_height": "loose",
-            "description": "<p>A cozy little world where big <br/>imaginations feel right at home.</p>"
+            "description": "<p>Inspire young minds with Islamic books and stories created especially for children.</p>"
           },
           "blocks": {
             "collection-highlight-image-card": {
@@ -1508,6 +1509,7 @@
               "name": "t:names.image_card",
               "static": true,
               "settings": {
+                "image": "shopify://shop_images/bg-33.png",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "card_link": "",
@@ -1537,7 +1539,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>New Campaign</p>",
+                    "text": "<p>STORIES THEY’LL WANT TO HEAR AGAIN</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1561,7 +1563,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>Stories Start on<br/>Wooden Shelves</p>",
+                    "text": "<p>Little books. Big adventures.</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1610,8 +1612,8 @@
                   "type": "button",
                   "static": true,
                   "settings": {
-                    "label": "Shop now",
-                    "link": "",
+                    "label": "Shop Books & Stories",
+                    "link": "shopify://collections/books-stories",
                     "style": "primary",
                     "size": "large",
                     "icon": "caret-right",
@@ -1641,7 +1643,7 @@
             "title_font_size": 32,
             "title_font_size_mobile": 20,
             "title_line_height": "loose",
-            "description": "<p>Each item is carefully selected for its <br/>quality, durability, and timeless appeal.</p>"
+            "description": "<p>Thoughtful toys, books and comforting companions designed for babies and toddlers.</p>"
           },
           "blocks": {
             "collection-highlight-image-card": {
@@ -1649,6 +1651,7 @@
               "name": "t:names.image_card",
               "static": true,
               "settings": {
+                "image": "shopify://shop_images/bg-44.png",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "card_link": "",
@@ -1678,7 +1681,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>New Campaign</p>",
+                    "text": "<p>LITTLE MOMENTS, BIG DISCOVERIES</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1702,7 +1705,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>Wooden Animals,<br/>Gentle Friends</p>",
+                    "text": "<p>A gentle start to learning and play</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1751,8 +1754,8 @@
                   "type": "button",
                   "static": true,
                   "settings": {
-                    "label": "Shop now",
-                    "link": "",
+                    "label": "Shop Baby & Toddler",
+                    "link": "shopify://collections/baby-toddler",
                     "style": "primary",
                     "size": "large",
                     "icon": "caret-right",
@@ -1782,7 +1785,7 @@
             "title_font_size": 32,
             "title_font_size_mobile": 20,
             "title_line_height": "loose",
-            "description": "<p>Each item is carefully selected for its <br/>quality, durability, and timeless appeal.</p>"
+            "description": "<p>Inspire children to make, shape, paint and imagine with faith-inspired creative play.</p>"
           },
           "blocks": {
             "collection-highlight-image-card": {
@@ -1790,6 +1793,7 @@
               "name": "t:names.image_card",
               "static": true,
               "settings": {
+                "image": "shopify://shop_images/bg-22.png",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "card_link": "",
@@ -1819,7 +1823,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>New Campaign</p>",
+                    "text": "<p>MADE TO IMAGINE</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1843,7 +1847,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>Wooden Animals,<br/>Gentle Friends</p>",
+                    "text": "<p>Little hands. Big ideas.</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1892,8 +1896,8 @@
                   "type": "button",
                   "static": true,
                   "settings": {
-                    "label": "Shop now",
-                    "link": "",
+                    "label": "Shop Creative Play",
+                    "link": "shopify://collections/creative-play",
                     "style": "primary",
                     "size": "large",
                     "icon": "caret-right",
@@ -1923,7 +1927,7 @@
             "title_font_size": 32,
             "title_font_size_mobile": 20,
             "title_line_height": "loose",
-            "description": "<p>Each item is carefully selected for its <br/>quality, durability, and timeless appeal.</p>"
+            "description": "<p>Each item is carefully selected for its&nbsp;<br/>quality, durability, and timeless appeal.</p>"
           },
           "blocks": {
             "collection-highlight-image-card": {
@@ -1931,6 +1935,7 @@
               "name": "t:names.image_card",
               "static": true,
               "settings": {
+                "image": "shopify://shop_images/bg-66.png",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "card_link": "",
@@ -1960,7 +1965,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>New Campaign</p>",
+                    "text": "<p>LITTLE MOMENTS OF CELEBRATION</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -1984,7 +1989,7 @@
                   "type": "_simple-text",
                   "static": true,
                   "settings": {
-                    "text": "<p>Wooden Animals,<br/>Gentle Friends</p>",
+                    "text": "<p>Make Ramadan & Eid feel magical</p>",
                     "highlight_style": "none",
                     "highlight_font_style": "italic",
                     "highlight_shape_color": "",
@@ -2033,8 +2038,8 @@
                   "type": "button",
                   "static": true,
                   "settings": {
-                    "label": "Shop now",
-                    "link": "",
+                    "label": "Shop Ramadan & Eid",
+                    "link": "shopify://collections/ramadan-eid",
                     "style": "primary",
                     "size": "large",
                     "icon": "caret-right",

@@ -1,0 +1,96 @@
+{% assign resource_blog = section.settings.resource_blog %}
+<section id="desidoll-play-learn-{{ section.id }}" class="dd-play-hub" aria-labelledby="dd-play-hub-title-{{ section.id }}">
+  <div class="dd-play-hub__inner">
+    <div class="dd-play-hub__intro">
+      <p class="dd-play-hub__eyebrow">FIND SOMETHING TO EXPLORE</p>
+      <h2 id="dd-play-hub-title-{{ section.id }}">Choose a little adventure</h2>
+      <p>Pick a topic and discover more ways to learn together at home.</p>
+    </div>
+    <div class="dd-play-hub__categories">
+      {% for block in section.blocks %}
+        {% assign category_tag = block.settings.tag | strip %}
+        {% assign tag_handle = category_tag | handleize %}
+        {% assign category_url = resource_blog.url | append: '/tagged/' | append: tag_handle %}
+        <article class="dd-play-hub__category" {{ block.shopify_attributes }}>
+          <span class="dd-play-hub__number">0{{ forloop.index }}</span>
+          <h3>{{ block.settings.title | escape }}</h3>
+          <p>{{ block.settings.description | escape }}</p>
+          {% if resource_blog != blank and category_tag != blank %}
+            <a href="{{ category_url }}" class="dd-play-hub__link">{{ block.settings.button_label | escape }} <span aria-hidden="true">↗</span></a>
+          {% else %}
+            <span class="dd-play-hub__link dd-play-hub__link--inactive">{{ block.settings.button_label | escape }} <span aria-hidden="true">↗</span></span>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+    {% if resource_blog != blank %}
+      <div class="dd-play-hub__resources" id="dd-play-hub-resources-{{ section.id }}">
+        <div class="dd-play-hub__resource-heading"><div><p class="dd-play-hub__eyebrow">FRESH IDEAS</p><h2>Latest from Play &amp; Learn</h2></div><a href="{{ resource_blog.url }}" class="dd-play-hub__all">View all resources ↗</a></div>
+        <div class="dd-play-hub__articles">
+          {% for article in resource_blog.articles limit: 6 %}
+            <article class="dd-play-hub__article">
+              {% if article.image != blank %}<a href="{{ article.url }}" class="dd-play-hub__image"><img src="{{ article.image | image_url: width: 700 }}" alt="{{ article.image.alt | default: article.title | escape }}" loading="lazy" width="700" height="500"></a>{% endif %}
+              <div class="dd-play-hub__article-body"><h3><a href="{{ article.url }}">{{ article.title | escape }}</a></h3><p>{{ article.excerpt | default: article.content | strip_html | truncate: 125 | escape }}</p><a href="{{ article.url }}" class="dd-play-hub__link">Read activity <span aria-hidden="true">↗</span></a></div>
+            </article>
+          {% else %}
+            <p class="dd-play-hub__empty">New activities and resources are on their way.</p>
+          {% endfor %}
+        </div>
+      </div>
+    {% elsif request.design_mode %}
+      <div class="dd-play-hub__editor-hint">Select your Play &amp; Learn blog in this section’s settings to activate the category links and show recent articles.</div>
+    {% endif %}
+  </div>
+</section>
+<style>
+  #desidoll-play-learn-{{ section.id }}{background:#fff;padding:clamp(70px,8vw,112px) 0;color:rgb(var(--color-foreground,40 38 45))}
+  #desidoll-play-learn-{{ section.id }} *{box-sizing:border-box}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__inner{width:min(1200px,calc(100% - 40px));margin:auto}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__intro{max-width:760px;margin-bottom:44px}
+  #desidoll-play-learn-{{ section.id }} h2,#desidoll-play-learn-{{ section.id }} h3{font-family:var(--font-heading--family,inherit);font-weight:var(--font-heading--weight,700);line-height:1.15}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__eyebrow{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:#ec0b8c;font-weight:700}
+  #desidoll-play-learn-{{ section.id }} h2{font-size:clamp(2.4rem,4vw,4.2rem);margin:12px 0 20px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__intro>p:last-child{font-size:1.13rem;line-height:1.65}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__categories{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__category{grid-column:span 2;background:#fff6fa;border:1px solid #f5dce9;border-radius:20px;padding:clamp(24px,3vw,36px);display:flex;flex-direction:column;min-height:280px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__category:nth-child(4),#desidoll-play-learn-{{ section.id }} .dd-play-hub__category:nth-child(5){grid-column:span 3}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__category:nth-child(2),#desidoll-play-learn-{{ section.id }} .dd-play-hub__category:nth-child(5){background:#fbf4ea}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__category:nth-child(3){background:#f3f2ff}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__number{color:#ec0b8c;font-weight:700;font-size:.85rem;letter-spacing:.08em;margin-bottom:26px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__category h3{font-size:clamp(1.4rem,2vw,1.8rem);margin:0 0 12px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__category p{line-height:1.6;margin:0 0 25px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__link{color:#c40772;font-weight:700;text-decoration:underline;text-underline-offset:4px;margin-top:auto}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__link--inactive{opacity:.65;text-decoration:none}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__resources{margin-top:clamp(68px,8vw,105px)}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__resource-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__resource-heading h2{font-size:clamp(2rem,3vw,3rem);margin-bottom:0}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__all{color:#c40772;font-weight:700;white-space:nowrap}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__articles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__article{border:1px solid #efdee7;border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__image{display:block;aspect-ratio:7/5;overflow:hidden;background:#fff6fa}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__image img{width:100%;height:100%;object-fit:cover}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__article-body{padding:24px;display:flex;flex-direction:column;flex:1}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__article h3{font-size:1.35rem;margin:0 0 12px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__article h3 a{color:inherit;text-decoration:none}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__article p{line-height:1.55;margin:0 0 22px}
+  #desidoll-play-learn-{{ section.id }} .dd-play-hub__editor-hint{background:#fff6fa;border:1px dashed #ec0b8c;border-radius:20px;margin-top:35px;padding:24px}
+  #desidoll-play-learn-{{ section.id }} a:focus-visible{outline:3px solid #ec0b8c;outline-offset:3px}
+  @media(max-width:800px){#desidoll-play-learn-{{ section.id }} .dd-play-hub__category{grid-column:span 3}#desidoll-play-learn-{{ section.id }} .dd-play-hub__category:nth-child(4),#desidoll-play-learn-{{ section.id }} .dd-play-hub__category:nth-child(5){grid-column:span 3}#desidoll-play-learn-{{ section.id }} .dd-play-hub__articles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:600px){#desidoll-play-learn-{{ section.id }} .dd-play-hub__category,#desidoll-play-learn-{{ section.id }} .dd-play-hub__category:nth-child(4),#desidoll-play-learn-{{ section.id }} .dd-play-hub__category:nth-child(5){grid-column:span 6;min-height:0}#desidoll-play-learn-{{ section.id }} .dd-play-hub__articles{grid-template-columns:1fr}#desidoll-play-learn-{{ section.id }} .dd-play-hub__resource-heading{align-items:start;flex-direction:column}}
+</style>
+{% schema %}
+{
+  "name":"Desi Doll Play & Learn",
+  "tag":"div",
+  "class":"desi-doll-play-and-learn",
+  "settings":[{"type":"blog","id":"resource_blog","label":"Play & Learn blog"}],
+  "blocks":[{"type":"category","name":"Resource category","settings":[
+    {"type":"text","id":"title","label":"Title"},
+    {"type":"textarea","id":"description","label":"Description"},
+    {"type":"text","id":"button_label","label":"Link label"},
+    {"type":"text","id":"tag","label":"Article tag","info":"Match the tag used on articles in the selected blog; e.g. learn-arabic."}
+  ]}],
+  "max_blocks":5,
+  "presets":[{"name":"Desi Doll Play & Learn"}]
+}
+{% endschema %}

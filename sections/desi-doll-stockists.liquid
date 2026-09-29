@@ -1,0 +1,97 @@
+<section class="dd-stockists" id="desidoll-stockists-{{ section.id }}" aria-labelledby="dd-stockists-heading-{{ section.id }}">
+  <div class="dd-stockists__inner">
+    <div class="dd-stockists__intro">
+      <p class="dd-stockists__eyebrow">FIND A RETAILER</p>
+      <h2 id="dd-stockists-heading-{{ section.id }}">Find Desi Doll locally</h2>
+      <p>Looking for Desi Doll products locally? Browse our authorised retailers by country or region to find a stockist near you.</p>
+    </div>
+    {% if section.blocks.size > 0 %}
+      <div class="dd-stockists__filters" role="group" aria-label="Filter retailers by region">
+        <button class="dd-stockists__filter is-active" type="button" data-region="all" aria-pressed="true">All regions</button>
+        <button class="dd-stockists__filter" type="button" data-region="uk" aria-pressed="false">United Kingdom</button>
+        <button class="dd-stockists__filter" type="button" data-region="europe" aria-pressed="false">Europe</button>
+        <button class="dd-stockists__filter" type="button" data-region="middle-east" aria-pressed="false">Middle East</button>
+        <button class="dd-stockists__filter" type="button" data-region="north-america" aria-pressed="false">North America</button>
+        <button class="dd-stockists__filter" type="button" data-region="rest-of-world" aria-pressed="false">Rest of World</button>
+      </div>
+      <div class="dd-stockists__grid">
+        {% for block in section.blocks %}
+          {% if block.settings.name != blank %}
+            <article class="dd-stockists__card" data-stockist-region="{{ block.settings.region | escape }}" {{ block.shopify_attributes }}>
+              <p class="dd-stockists__region">{{ block.settings.country | escape }}</p>
+              <h3>{{ block.settings.name | escape }}</h3>
+              {% if block.settings.location != blank %}<p>{{ block.settings.location | escape }}</p>{% endif %}
+              {% if block.settings.website != blank %}<a href="{{ block.settings.website }}" class="dd-stockists__link">Visit retailer <span aria-hidden="true">↗</span></a>{% endif %}
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p class="dd-stockists__no-match" role="status" hidden>No retailers are listed for this region yet. <a href="/pages/contact">Ask us about availability</a>.</p>
+    {% else %}
+      <div class="dd-stockists__empty">Our retailer directory is being updated. <a href="/pages/contact">Contact us</a> to find an authorised stockist near you.</div>
+    {% endif %}
+  </div>
+</section>
+<style>
+  #desidoll-stockists-{{ section.id }}{background:#fff;padding:clamp(72px,8vw,112px) 0;color:rgb(var(--color-foreground,40 38 45))}
+  #desidoll-stockists-{{ section.id }} *{box-sizing:border-box}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__inner{width:min(1200px,calc(100% - 40px));margin:auto}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__intro{max-width:770px}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__eyebrow,#desidoll-stockists-{{ section.id }} .dd-stockists__region{color:#ec0b8c;font-weight:700;letter-spacing:.09em;text-transform:uppercase;font-size:.8rem}
+  #desidoll-stockists-{{ section.id }} h2,#desidoll-stockists-{{ section.id }} h3{font-family:var(--font-heading--family,inherit);font-weight:var(--font-heading--weight,700);line-height:1.16}
+  #desidoll-stockists-{{ section.id }} h2{font-size:clamp(2.5rem,4.5vw,4.5rem);margin:12px 0 22px}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__intro>p:last-child{font-size:1.13rem;line-height:1.65}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__filters{display:flex;gap:10px;flex-wrap:wrap;margin:38px 0 28px}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__filter{border:1px solid #e1d4dc;border-radius:999px;padding:10px 17px;background:#fff;color:inherit;font:inherit;cursor:pointer}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__filter.is-active{background:#ec0b8c;border-color:#ec0b8c;color:white}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__filter:focus-visible,#desidoll-stockists-{{ section.id }} a:focus-visible{outline:3px solid #ec0b8c;outline-offset:3px}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__card{background:#fff7fb;border:1px solid #f5dce9;border-radius:20px;padding:30px;min-height:210px}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__card[hidden],#desidoll-stockists-{{ section.id }} .dd-stockists__no-match[hidden]{display:none}
+  #desidoll-stockists-{{ section.id }} h3{font-size:1.4rem;margin:10px 0}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__link{color:#c40772;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+  #desidoll-stockists-{{ section.id }} .dd-stockists__empty,#desidoll-stockists-{{ section.id }} .dd-stockists__no-match{margin-top:34px;background:#fff7fb;border-radius:20px;padding:28px;line-height:1.6}
+  @media(max-width:750px){#desidoll-stockists-{{ section.id }} .dd-stockists__grid{grid-template-columns:1fr}}
+</style>
+<script>
+(function(){
+  var root=document.getElementById('desidoll-stockists-{{ section.id }}');
+  if(!root) return;
+  root.querySelectorAll('.dd-stockists__filter').forEach(function(button){
+    button.addEventListener('click',function(){
+      var region=button.getAttribute('data-region'),visible=0;
+      root.querySelectorAll('.dd-stockists__filter').forEach(function(item){var active=item===button;item.classList.toggle('is-active',active);item.setAttribute('aria-pressed',String(active));});
+      root.querySelectorAll('.dd-stockists__card').forEach(function(card){var show=region==='all'||card.getAttribute('data-stockist-region')===region;card.hidden=!show;if(show) visible++;});
+      var empty=root.querySelector('.dd-stockists__no-match');if(empty) empty.hidden=visible!==0;
+    });
+  });
+})();
+</script>
+{% schema %}
+{
+  "name": "Desi Doll stockists",
+  "tag": "div",
+  "class": "desi-doll-stockist-list",
+  "max_blocks": 50,
+  "blocks": [
+    {
+      "type": "stockist",
+      "name": "Authorised retailer",
+      "settings": [
+        {"type":"text","id":"name","label":"Retailer name"},
+        {"type":"text","id":"country","label":"Country"},
+        {"type":"text","id":"location","label":"City or location"},
+        {"type":"select","id":"region","label":"Region","default":"uk","options":[
+          {"value":"uk","label":"United Kingdom"},
+          {"value":"europe","label":"Europe"},
+          {"value":"middle-east","label":"Middle East"},
+          {"value":"north-america","label":"North America"},
+          {"value":"rest-of-world","label":"Rest of World"}
+        ]},
+        {"type":"url","id":"website","label":"Retailer website"}
+      ]
+    }
+  ],
+  "presets": [{"name":"Desi Doll stockists"}]
+}
+{% endschema %}

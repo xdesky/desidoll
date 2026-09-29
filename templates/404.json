@@ -23,10 +23,13 @@
             "highlight_text_color": "",
             "type_preset": "h1",
             "font": "var(--font-body--family)",
+            "font_weight": "",
             "font_size": 15,
             "font_size_mobile": 15,
             "line_height": "normal",
             "text_color": "text",
+            "text_color_gradient": "",
+            "disable_line_break_mobile": false,
             "width": "100%",
             "text_alignment": "center",
             "width_mobile": "fit-content",
@@ -52,10 +55,13 @@
             "highlight_text_color": "",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
+            "font_weight": "",
             "font_size": 15,
             "font_size_mobile": 15,
             "line_height": "normal",
             "text_color": "subtext",
+            "text_color_gradient": "",
+            "disable_line_break_mobile": false,
             "width": "100%",
             "text_alignment": "center",
             "width_mobile": "100%",
@@ -75,10 +81,13 @@
           "name": "t:names.button",
           "settings": {
             "label": "Continue shopping",
+            "link": "",
             "style": "primary",
             "size": "medium",
             "icon": "caret-right",
+            "icon_only": false,
             "icon_style": "solid",
+            "mobile_full_width": false,
             "animation_type": "none",
             "animation_delay": 250
           },
@@ -111,79 +120,214 @@
         "padding-inline-end-mobile": 0
       }
     },
-    "featured_collection_zJp74G": {
-      "type": "featured-collection",
+    "flex_carousel_yeRwaH": {
+      "type": "flex-carousel",
       "blocks": {
-        "text_4AeehB": {
-          "type": "text",
-          "name": "t:names.header",
+        "flex_carousel_collection_card_MNGfG4": {
+          "type": "_flex-carousel-collection-card",
+          "name": "t:names.collection_card",
           "settings": {
-            "text": "<h1>Discover something new</h1>",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_shape_color": "",
-            "highlight_text_color": "",
-            "type_preset": "h1",
-            "font": "var(--font-body--family)",
-            "font_size": 15,
-            "font_size_mobile": 15,
-            "line_height": "normal",
-            "text_color": "text",
-            "width": "100%",
-            "text_alignment": "center",
-            "width_mobile": "100%",
-            "text_alignment_mobile": "center",
-            "padding-block-start": 0,
-            "padding-block-end": 40,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "mobile-padding-scale": 60,
-            "animation_type": "fade-up",
-            "animation_delay": 250
+            "collection": "build-create",
+            "text_alignment": "left",
+            "image_ratio": "1/1",
+            "title": "Build & Create",
+            "title_preset": "h5",
+            "show_product_count": false,
+            "show_description": true,
+            "description": "<p>Inspire curious minds with puzzles</p>",
+            "width": "custom",
+            "custom_width": 24,
+            "width_mobile": "custom",
+            "custom_width_mobile": 73,
+            "enable_preload_image": true
           },
           "blocks": {}
         },
-        "static-product-card": {
-          "type": "_product-card",
-          "static": true,
-          "settings": {},
+        "flex_carousel_collection_card_HpkVaJ": {
+          "type": "_flex-carousel-collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "baby-nursery",
+            "text_alignment": "left",
+            "image_ratio": "1/1",
+            "title": "Baby & Nursery",
+            "title_preset": "h5",
+            "show_product_count": false,
+            "show_description": true,
+            "description": "<p>Everyday comfort with playful style</p>",
+            "width": "custom",
+            "custom_width": 24,
+            "width_mobile": "custom",
+            "custom_width_mobile": 73,
+            "enable_preload_image": true
+          },
           "blocks": {}
+        },
+        "flex_carousel_collection_card_KNr7NY": {
+          "type": "_flex-carousel-collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "books-stories",
+            "text_alignment": "left",
+            "image_ratio": "1/1",
+            "title": "Books & Stories",
+            "title_preset": "h5",
+            "show_product_count": false,
+            "show_description": true,
+            "description": "<p>Warm layers made for little explorers</p>",
+            "width": "custom",
+            "custom_width": 24,
+            "width_mobile": "custom",
+            "custom_width_mobile": 73,
+            "enable_preload_image": true
+          },
+          "blocks": {}
+        },
+        "flex_carousel_collection_card_VMtCEB": {
+          "type": "_flex-carousel-collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "creative-kits",
+            "text_alignment": "left",
+            "image_ratio": "1/1",
+            "title": "Creative Kits",
+            "title_preset": "h5",
+            "show_product_count": false,
+            "show_description": true,
+            "description": "<p>Casual, perfect for any day of the week</p>",
+            "width": "custom",
+            "custom_width": 24,
+            "width_mobile": "custom",
+            "custom_width_mobile": 73,
+            "enable_preload_image": true
+          },
+          "blocks": {}
+        },
+        "flex_carousel_collection_card_eKUUcK": {
+          "type": "_flex-carousel-collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "dua-pillows-books",
+            "text_alignment": "left",
+            "image_ratio": "1/1",
+            "title": "Dua Pillows & Books",
+            "title_preset": "h5",
+            "show_product_count": false,
+            "show_description": true,
+            "description": "<p>Fun extras to complete every outfit</p>",
+            "width": "custom",
+            "custom_width": 24,
+            "width_mobile": "custom",
+            "custom_width_mobile": 73,
+            "enable_preload_image": true
+          },
+          "blocks": {}
+        },
+        "flex_carousel_collection_card_x3VAwP": {
+          "type": "_flex-carousel-collection-card",
+          "name": "t:names.collection_card",
+          "settings": {
+            "collection": "islamic-learning",
+            "text_alignment": "left",
+            "image_ratio": "1/1",
+            "title": "Block Play",
+            "title_preset": "h5",
+            "show_product_count": false,
+            "show_description": true,
+            "description": "<p>Fun extras to complete every outfit</p>",
+            "width": "custom",
+            "custom_width": 24,
+            "width_mobile": "custom",
+            "custom_width_mobile": 73,
+            "enable_preload_image": false
+          },
+          "blocks": {}
+        },
+        "section-header-vertical": {
+          "type": "_section-header-vertical",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "device": "desktop",
+            "padding-block-end": 40,
+            "padding-block-end-mobile": 24
+          },
+          "blocks": {
+            "text_NwceeA": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h1>Discover something new</h1>",
+                "highlight_style": "none",
+                "highlight_font_style": "italic",
+                "highlight_shape_color": "",
+                "highlight_text_color": "",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_weight": "",
+                "font_size": 15,
+                "font_size_mobile": 15,
+                "line_height": "normal",
+                "text_color": "text",
+                "text_color_gradient": "",
+                "disable_line_break_mobile": false,
+                "width": "fit-content",
+                "text_alignment": "left",
+                "width_mobile": "fit-content",
+                "text_alignment_mobile": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80,
+                "animation_type": "none",
+                "animation_delay": 250
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_NwceeA"
+          ]
         }
       },
       "block_order": [
-        "text_4AeehB"
+        "flex_carousel_collection_card_MNGfG4",
+        "flex_carousel_collection_card_HpkVaJ",
+        "flex_carousel_collection_card_KNr7NY",
+        "flex_carousel_collection_card_VMtCEB",
+        "flex_carousel_collection_card_eKUUcK",
+        "flex_carousel_collection_card_x3VAwP"
       ],
-      "name": "t:names.featured_collection_carousel",
+      "name": "t:names.flex_carousel_image_cards",
       "settings": {
-        "product_count": 4,
-        "container": "fixed",
-        "type": "grid",
-        "columns_xxl": 4,
+        "container": "page-width",
+        "overflow_content": "visible",
+        "slides_per_view": "auto",
+        "columns": 4,
         "column_gap": 10,
-        "row_gap": 10,
-        "enable_swipe_on_mobile": true,
+        "enable_swipe_on_mobile": false,
+        "swipe_custom_width_column": false,
+        "swipe_column_width": 76,
         "columns_mobile": "2",
         "column_gap_mobile": 8,
-        "row_gap_mobile": 8,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
+        "control_type": "float",
+        "control_alignment": "end",
         "device": "desktop",
-        "padding-block-start": 50,
-        "padding-block-end": 50,
-        "padding-inline-start": 0,
-        "padding-inline-end": 0,
-        "padding-block-start-mobile": 48,
-        "padding-block-end-mobile": 48,
-        "padding-inline-start-mobile": 0,
-        "padding-inline-end-mobile": 0
+        "padding-block-start": 0,
+        "padding-block-end": 80,
+        "padding-block-start-mobile": 0,
+        "padding-block-end-mobile": 0
       }
     }
   },
   "order": [
     "main",
-    "featured_collection_zJp74G"
+    "flex_carousel_yeRwaH"
   ]
 }

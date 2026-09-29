@@ -508,7 +508,7 @@
             "highlight_font_style": "italic",
             "highlight_shape_color": "",
             "highlight_text_color": "",
-            "type_preset": "h1",
+            "type_preset": "h2",
             "font": "var(--font-body--family)",
             "font_weight": "",
             "font_size": 15,
@@ -530,10 +530,311 @@
             "animation_delay": 50
           },
           "blocks": {}
+        },
+        "grid_xPLNNh": {
+          "type": "grid",
+          "name": "t:names.grid",
+          "settings": {
+            "vertical_alignment": "start",
+            "columns_xxl": 5,
+            "column_gap": 12,
+            "row_gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "enable_swipe_on_mobile": true,
+            "swipe_custom_width_column": true,
+            "swipe_column_width": 50,
+            "columns_mobile": 1,
+            "column_gap_mobile": 12,
+            "row_gap_mobile": 12,
+            "device": "desktop",
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "padding-block-start-mobile": 0,
+            "padding-block-end-mobile": 0,
+            "padding-inline-start-mobile": 0,
+            "padding-inline-end-mobile": 0,
+            "custom_columns": "md:2,lg:4"
+          },
+          "blocks": {
+            "image_bGzNUE": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo1.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_YF6wdK": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo2.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_HnXXMT": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo3.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_qUw9Q6": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo4.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_7xA4d7": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo5.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_Pg6NAj": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo6.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_LkRT4T": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo7.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_B9EGB8": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo8.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_ydEzWG": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo9.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            },
+            "image_V4YjCt": {
+              "type": "image",
+              "name": "t:names.image",
+              "settings": {
+                "image": "shopify://shop_images/logo10.webp",
+                "link": "",
+                "image_ratio": "adapt",
+                "image_ratio_mobile": "adapt",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "rounded": false,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile-padding-scale": 80
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_bGzNUE",
+            "image_YF6wdK",
+            "image_HnXXMT",
+            "image_qUw9Q6",
+            "image_7xA4d7",
+            "image_Pg6NAj",
+            "image_LkRT4T",
+            "image_B9EGB8",
+            "image_ydEzWG",
+            "image_V4YjCt"
+          ]
         }
       },
       "block_order": [
-        "text_NazPFL"
+        "text_NazPFL",
+        "grid_xPLNNh"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -563,425 +864,12 @@
         "padding-inline-start-mobile": 0,
         "padding-inline-end-mobile": 0
       }
-    },
-    "store_locator_BQJBp9": {
-      "type": "store-locator",
-      "blocks": {
-        "store_locator_WJAAjk": {
-          "type": "store-locator",
-          "settings": {
-            "style": "card",
-            "color_scheme": "scheme-13",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 20
-          },
-          "blocks": {
-            "image": {
-              "type": "_image-card-media",
-              "static": true,
-              "settings": {
-                "image": "shopify://shop_images/store.webp",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "image_ratio": "1/1",
-                "image_ratio_mobile": "adapt",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 10
-              },
-              "blocks": {}
-            },
-            "heading": {
-              "type": "_simple-text",
-              "name": "t:names.heading",
-              "static": true,
-              "settings": {
-                "text": "<p>New York</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "text",
-                "padding-block-start": 0,
-                "padding-block-end": 16,
-                "mobile-padding-scale": 75,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "text": {
-              "type": "_simple-text",
-              "static": true,
-              "settings": {
-                "text": "<p>123 Orchard Ave, Manhattan, NY 10002 </p><p>+1 (212) 555-0148 </p><p>Mon–Sat: 10am–8pm</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "loose",
-                "text_color": "subtext",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "button": {
-              "type": "button",
-              "static": true,
-              "settings": {
-                "label": "Get Directions",
-                "link": "",
-                "style": "plain",
-                "size": "medium",
-                "icon": "caret-right",
-                "icon_only": false,
-                "icon_style": "default",
-                "mobile_full_width": false,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": []
-        },
-        "store_locator_abL63V": {
-          "type": "store-locator",
-          "settings": {
-            "style": "card",
-            "color_scheme": "scheme-13",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 20
-          },
-          "blocks": {
-            "image": {
-              "type": "_image-card-media",
-              "static": true,
-              "settings": {
-                "image": "shopify://shop_images/store.webp",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "image_ratio": "1/1",
-                "image_ratio_mobile": "adapt",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 10
-              },
-              "blocks": {}
-            },
-            "heading": {
-              "type": "_simple-text",
-              "name": "t:names.heading",
-              "static": true,
-              "settings": {
-                "text": "<p>Los Angeles</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "text",
-                "padding-block-start": 0,
-                "padding-block-end": 16,
-                "mobile-padding-scale": 75,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "text": {
-              "type": "_simple-text",
-              "static": true,
-              "settings": {
-                "text": "<p>742 Sunset Blvd, Los Angeles, CA 90028 </p><p>+1 (310) 555-0193 </p><p>Mon–Sat: 10am–8pm</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "loose",
-                "text_color": "subtext",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "button": {
-              "type": "button",
-              "static": true,
-              "settings": {
-                "label": "Get Directions",
-                "link": "",
-                "style": "plain",
-                "size": "medium",
-                "icon": "caret-right",
-                "icon_only": false,
-                "icon_style": "default",
-                "mobile_full_width": false,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": []
-        },
-        "store_locator_4TKfGz": {
-          "type": "store-locator",
-          "settings": {
-            "style": "card",
-            "color_scheme": "scheme-13",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 20
-          },
-          "blocks": {
-            "image": {
-              "type": "_image-card-media",
-              "static": true,
-              "settings": {
-                "image": "shopify://shop_images/store.webp",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "image_ratio": "1/1",
-                "image_ratio_mobile": "adapt",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 10
-              },
-              "blocks": {}
-            },
-            "heading": {
-              "type": "_simple-text",
-              "name": "t:names.heading",
-              "static": true,
-              "settings": {
-                "text": "<p>Palo Alto</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "text",
-                "padding-block-start": 0,
-                "padding-block-end": 16,
-                "mobile-padding-scale": 75,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "text": {
-              "type": "_simple-text",
-              "static": true,
-              "settings": {
-                "text": "<p>385 University Ave, Palo Alto, CA 94301 </p><p>+1 (650) 555-0124 </p><p>Mon–Sat: 10am–8pm</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "loose",
-                "text_color": "subtext",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "button": {
-              "type": "button",
-              "static": true,
-              "settings": {
-                "label": "Get Directions",
-                "link": "",
-                "style": "plain",
-                "size": "medium",
-                "icon": "caret-right",
-                "icon_only": false,
-                "icon_style": "default",
-                "mobile_full_width": false,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": []
-        },
-        "store_locator_YVUknJ": {
-          "type": "store-locator",
-          "settings": {
-            "style": "card",
-            "color_scheme": "scheme-13",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 20
-          },
-          "blocks": {
-            "image": {
-              "type": "_image-card-media",
-              "static": true,
-              "settings": {
-                "image": "shopify://shop_images/store.webp",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "image_ratio": "1/1",
-                "image_ratio_mobile": "adapt",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 10
-              },
-              "blocks": {}
-            },
-            "heading": {
-              "type": "_simple-text",
-              "name": "t:names.heading",
-              "static": true,
-              "settings": {
-                "text": "<p>Chicago</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "normal",
-                "text_color": "text",
-                "padding-block-start": 0,
-                "padding-block-end": 16,
-                "mobile-padding-scale": 75,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "text": {
-              "type": "_simple-text",
-              "static": true,
-              "settings": {
-                "text": "<p>211 W Monroe St, Chicago, IL 60606 </p><p>+1 (312) 555-0177 </p><p>Mon–Sat: 10am–8pm</p>",
-                "highlight_style": "none",
-                "highlight_font_style": "italic",
-                "highlight_shape_color": "",
-                "highlight_text_color": "",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_weight": "",
-                "font_size": 15,
-                "font_size_mobile": 15,
-                "line_height": "loose",
-                "text_color": "subtext",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "mobile-padding-scale": 80,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            },
-            "button": {
-              "type": "button",
-              "static": true,
-              "settings": {
-                "label": "Get Directions",
-                "link": "",
-                "style": "plain",
-                "size": "medium",
-                "icon": "caret-right",
-                "icon_only": false,
-                "icon_style": "default",
-                "mobile_full_width": false,
-                "animation_type": "none",
-                "animation_delay": 250
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": []
-        }
-      },
-      "block_order": [
-        "store_locator_WJAAjk",
-        "store_locator_abL63V",
-        "store_locator_4TKfGz",
-        "store_locator_YVUknJ"
-      ],
-      "name": "t:names.store_locator",
-      "settings": {
-        "container": "fixed",
-        "type": "carousel",
-        "columns": 2,
-        "column_gap": 10,
-        "row_gap": 30,
-        "enable_swipe_on_mobile": true,
-        "swipe_custom_width_column": true,
-        "swipe_column_width": 68,
-        "columns_mobile": "1",
-        "column_gap_mobile": 8,
-        "row_gap_mobile": 24,
-        "color_scheme": "",
-        "padding-block-start": 0,
-        "padding-block-end": 100
-      }
     }
   },
   "order": [
     "breadcrumbs",
     "main",
     "custom_section_tUbpGU",
-    "custom_section_4ARCm4",
-    "store_locator_BQJBp9"
+    "custom_section_4ARCm4"
   ]
 }

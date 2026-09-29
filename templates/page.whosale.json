@@ -194,7 +194,7 @@
               "type": "button",
               "settings": {
                 "label": "Apply for a trade account",
-                "link": "shopify://collections/all",
+                "link": "https://gmafhk-10.myshopify.com/pages/wholesale-application",
                 "style": "primary",
                 "size": "large",
                 "icon": "caret-right",
@@ -1170,7 +1170,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Apply for a trade account",
-                    "link": "#",
+                    "link": "https://gmafhk-10.myshopify.com/pages/wholesale-application",
                     "style": "primary",
                     "size": "medium",
                     "icon": "caret-right",
@@ -2033,7 +2033,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Apply for a trade account",
-                "link": "#",
+                "link": "https://gmafhk-10.myshopify.com/pages/wholesale-application",
                 "style": "primary",
                 "size": "medium",
                 "icon": "caret-right",

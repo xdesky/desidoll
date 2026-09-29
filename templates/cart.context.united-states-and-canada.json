@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "context": {
+    "market": "united-states-and-canada"
+  },
+  "parent": "cart.json",
+  "sections": {
+    "custom_section_kDMLY": {
+      "type": "custom-section",
+      "disabled": false,
+      "settings": {
+        "paragraph-4a53d0253ee81ccfac88bdc00c7ebf36": null,
+        "header-db40a1c063e0fc48122f1c4beb9b59df": null,
+        "container": "page-width",
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "column_gap": 30,
+        "row_gap": 24,
+        "header-7159ce1e13091878ed61f00824ec290d": null,
+        "column_gap_mobile": 12,
+        "row_gap_mobile": 12,
+        "header-af2f28ea50230b924c359845033d4ab9": null,
+        "use_color_scheme_in_container": true,
+        "color_scheme": "scheme-2",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 20,
+        "header-51e0969218bc78042eca11a8c160c3e9": null,
+        "device": "desktop",
+        "padding-block-start": 40,
+        "padding-block-end": 40,
+        "padding-inline-start": 50,
+        "padding-inline-end": 50,
+        "padding-block-start-mobile": 32,
+        "padding-block-end-mobile": 32,
+        "padding-inline-start-mobile": 20,
+        "padding-inline-end-mobile": 20
+      },
+      "blocks": {
+        "text_mF3Dt": {
+          "type": "text",
+          "name": "t:names.text",
+          "disabled": false,
+          "settings": {
+            "text": "<p>Wholesale shipping and order review:</p>",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_shape_color": "",
+            "highlight_text_color": "",
+            "header-ad28e12e1a4c8c5580840b6473a02df7": null,
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_weight": "",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "line_height": "normal",
+            "text_color": "text",
+            "text_color_gradient": "",
+            "disable_line_break_mobile": false,
+            "header-22aad9c872716e87fddd8b07b65726dd": null,
+            "width": "fit-content",
+            "text_alignment": "left",
+            "width_mobile": "fit-content",
+            "text_alignment_mobile": "left",
+            "header-5c86956b5b87ce5563a1542fab139b5a": null,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile-padding-scale": 80,
+            "header-2f1498f2e4544063f74db04948d55a7d": null,
+            "animation_type": "none",
+            "animation_delay": 250
+          }
+        },
+        "collapsible_text_JnJeb": {
+          "type": "collapsible-text",
+          "name": "t:names.collapsible_text",
+          "disabled": false,
+          "settings": {
+            "text": "<p>Submit your order for review. We’ll confirm the most suitable parcel or pallet delivery option and add the shipping cost before sending your payment invoice. International shipping is quoted based on destination and order size.</p>",
+            "header-a8caf0c970af75f08b734af26e9de9f0": null,
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_weight": "",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "line_height": "normal",
+            "text_color": "subtext",
+            "header-3a61833d38a8aa865e240020aba056e5": null,
+            "line_limit": "4-lines",
+            "button_style": "primary",
+            "header-54058a22152b3c7e0d8540c9cb55dce0": null,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile-padding-scale": 80
+          }
+        }
+      },
+      "block_order": [
+        "text_mF3Dt",
+        "collapsible_text_JnJeb"
+      ],
+      "name": "t:names.rich_text"
+    }
+  },
+  "order": [
+    "main",
+    "custom_section_kDMLY"
+  ]
+}
