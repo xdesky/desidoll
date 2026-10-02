@@ -1936,8 +1936,8 @@
               "static": true,
               "settings": {
                 "image": "shopify://shop_images/bg-66.png",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
+                "toggle_overlay": true,
+                "overlay_color": "#00000036",
                 "card_link": "",
                 "edge_gap": "xl",
                 "content_direction": "column",
